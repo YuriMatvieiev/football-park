@@ -1,0 +1,3767 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <title>Starter project</title>
+    <meta
+      name="description"
+      content="Starter template based on brandwonden setup"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <header class="site-header" id="site-header">
+  <input
+    type="checkbox"
+    class="site-header__toggle-input"
+    id="header-menu-toggle"
+    aria-label="Toggle menu"
+    hidden
+  />
+  <div class="site-header__top">
+    <div class="container site-header__top-inner">
+      <a class="site-logo" href="/" aria-label="Football Park — Home">
+        <img class="site-logo__icon" src="assets/img/logo.svg" alt="Image" />
+        <span class="site-logo__text"
+          ><span class="site-logo__word">FOOTBALL</span>
+          <span class="site-logo__word site-logo__word--green">PARK</span></span
+        >
+      </a>
+
+      <div class="site-header__nav-wrap">
+        <nav class="site-nav" aria-label="Main navigation">
+          <a href="match-tips-overview.html">Tips</a>
+          <a href="news.html">News</a>
+          <a href="predictions.html">Predictions</a>
+          <a href="#blogs">Blogs</a>
+          <a href="videos.html">Videos</a>
+          <a href="#guides">Guides</a>
+          <a href="#quizzes">Quizzes</a>
+        </nav>
+        <div class="site-header__actions">
+          <a class="site-header__btn site-header__btn--freebet" href="#freebet">
+            <span class="site-header__badge" aria-label="28 free bets">28</span>
+            FREE BET
+          </a>
+          <a
+            class="site-header__btn site-header__btn--betslip"
+            href="#betslip"
+            aria-label="Bet slip — 1 item"
+          >
+            <div class="site-header__betslip-icon">
+              <img src="assets/img/white-paper.svg" alt="BetSlip" />
+              <span class="site-header__badge site-header__badge--small"
+                >1</span
+              >
+            </div>
+            BetSlip
+          </a>
+        </div>
+      </div>
+
+      <label
+        class="site-header__toggle"
+        for="header-menu-toggle"
+        aria-hidden="true"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+    </div>
+  </div>
+
+  <div class="site-header__sub">
+    <div class="container site-header__sub-inner">
+      <nav class="site-nav-sub" aria-label="Football tips navigation">
+        <a href="match-tips-overview.html">All Football Tips</a>
+        <a href="#1x2">1x2 Betting Tips</a>
+        <a href="#btts">BTTS (Both Team to Score)</a>
+        <a href="#correct">Correct Score Predictions and Tips</a>
+        <a href="#over15">Over/Under 1.5 Goals Tips</a>
+        <a href="#over25">Over/Under 2.5 Goals Tips</a>
+        <a href="#over35">Over/Under 3.5 Goals Tips</a>
+      </nav>
+    </div>
+  </div>
+</header>
+
+
+    <main>
+      <section class="hero-news">
+  <div class="container hero-news__inner">
+    <div class="hero-news__main">
+      <div
+        class="hero-news__slider hero-news__slider--main"
+        data-hero-slider="main"
+        data-slides="3"
+      >
+        <input
+          type="radio"
+          name="hero-main"
+          id="hero-main-1"
+          checked
+          hidden
+          class="hero-news__input"
+        />
+        <input
+          type="radio"
+          name="hero-main"
+          id="hero-main-2"
+          hidden
+          class="hero-news__input"
+        />
+        <input
+          type="radio"
+          name="hero-main"
+          id="hero-main-3"
+          hidden
+          class="hero-news__input"
+        />
+        <div class="hero-news__slides">
+          <article class="hero-news__slide">
+            <a href="#" class="hero-news__card hero-news__card--large">
+              <div
+                class="hero-news__card-bg"
+                style="background-image: url('assets/img/hero-news-1.png')"
+              ></div>
+              <div class="hero-news__card-overlay">
+                <div class="hero-news__meta">
+                  <span class="hero-news__tag">Inter</span>
+                  <span class="hero-news__author">
+                    <img
+                      class="hero-news__meta-icon"
+                      src="assets/img/icons/lfp.png"
+                      alt="User"
+                    />
+                    Ihone Doe</span
+                  >
+                  <span class="hero-news__date">
+                    <img
+                      class="hero-news__meta-icon"
+                      src="assets/img/svg/clock-icon.svg"
+                      alt="User"
+                    />
+                    5 minutes</span
+                  >
+                </div>
+                <h2 class="hero-news__title">
+                  The Worst 'Best Player in the World'? <br />
+                  Paul Scholes Calls Out Misfiring Liverpool Star
+                </h2>
+              </div>
+            </a>
+          </article>
+          <article class="hero-news__slide">
+            <a href="#" class="hero-news__card hero-news__card--large">
+              <div
+                class="hero-news__card-bg"
+                style="background-image: url('assets/img/hero-news-2.png')"
+              ></div>
+              <div class="hero-news__card-overlay">
+                <div class="hero-news__meta">
+                  <span class="hero-news__tag">Premier League</span>
+                  <span class="hero-news__author">
+                    <img
+                      class="hero-news__meta-icon"
+                      src="assets/img/icons/lfp.png"
+                      alt=""
+                      aria-hidden="true"
+                    />
+                    Jane Smith</span
+                  >
+                  <span class="hero-news__date">
+                    <img
+                      class="hero-news__meta-icon"
+                      src="assets/img/svg/clock-icon.svg"
+                      alt=""
+                      aria-hidden="true"
+                    />
+                    12 minutes</span
+                  >
+                </div>
+                <h2 class="hero-news__title">
+                  Second slide headline: Match highlights and analysis from the
+                  weekend
+                </h2>
+              </div>
+            </a>
+          </article>
+          <article class="hero-news__slide">
+            <a href="#" class="hero-news__card hero-news__card--large">
+              <div
+                class="hero-news__card-bg"
+                style="background-image: url('assets/img/hero-news-3.png')"
+              ></div>
+              <div class="hero-news__card-overlay">
+                <div class="hero-news__meta">
+                  <span class="hero-news__tag">Champions League</span>
+                  <span class="hero-news__author">
+                    <img
+                      class="hero-news__meta-icon"
+                      src="assets/img/icons/lfp.png"
+                      alt=""
+                      aria-hidden="true"
+                    />
+                    John Doe</span
+                  >
+                  <span class="hero-news__date">
+                    <img
+                      class="hero-news__meta-icon"
+                      src="assets/img/svg/clock-icon.svg"
+                      alt=""
+                      aria-hidden="true"
+                    />
+                    1 hour</span
+                  >
+                </div>
+                <h2 class="hero-news__title">
+                  Third slide: Transfer news and rumours from across Europe
+                </h2>
+              </div>
+            </a>
+          </article>
+        </div>
+        <button
+          type="button"
+          class="hero-news__arrow hero-news__arrow--prev"
+          aria-label="Previous slide"
+        >
+          <img src="assets/img/svg/chevron-left.svg" alt="Previous slide" />
+        </button>
+        <button
+          type="button"
+          class="hero-news__arrow hero-news__arrow--next"
+          aria-label="Next slide"
+        >
+          <img src="assets/img/svg/chevron-left.svg" alt="Next slide" />
+        </button>
+        <div class="hero-news__indicators">
+          <label
+            for="hero-main-1"
+            class="hero-news__indicator"
+            aria-label="Slide 1"
+          ></label>
+          <label
+            for="hero-main-2"
+            class="hero-news__indicator"
+            aria-label="Slide 2"
+          ></label>
+          <label
+            for="hero-main-3"
+            class="hero-news__indicator"
+            aria-label="Slide 3"
+          ></label>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-news__side">
+      <div
+        class="hero-news__small-slider hero-news__slider"
+        data-hero-slider="side-1"
+        data-slides="2"
+      >
+        <input
+          type="radio"
+          name="hero-side-1"
+          id="hero-side-1-1"
+          checked
+          hidden
+          class="hero-news__input"
+        />
+        <input
+          type="radio"
+          name="hero-side-1"
+          id="hero-side-1-2"
+          hidden
+          class="hero-news__input"
+        />
+        <div class="hero-news__slides">
+          <article class="hero-news__slide">
+            <a href="#" class="hero-news__card hero-news__card--small">
+              <div
+                class="hero-news__card-bg"
+                style="background-image: url('assets/img/hero-news-2.png')"
+              ></div>
+              <div class="hero-news__card-overlay">
+                <div class="hero-news__meta hero-news__meta--small">
+                  <span class="hero-news__tag">Inter</span>
+                  <span class="hero-news__author">
+                    <img
+                      class="hero-news__meta-icon"
+                      src="assets/img/icons/lfp.png"
+                      alt=""
+                      aria-hidden="true"
+                    />
+                    Ihone Doe</span
+                  >
+                  <span class="hero-news__date">
+                    <img
+                      class="hero-news__meta-icon"
+                      src="assets/img/svg/clock-icon.svg"
+                      alt=""
+                      aria-hidden="true"
+                    />
+                    24.11.2025</span
+                  >
+                </div>
+                <h3 class="hero-news__title hero-news__title--small">
+                  The Worst 'Best Player in the World'? Paul Scholes Calls Out
+                  Misfiring Liverpool Star
+                </h3>
+              </div>
+            </a>
+          </article>
+          <article class="hero-news__slide">
+            <a href="#" class="hero-news__card hero-news__card--small">
+              <div
+                class="hero-news__card-bg"
+                style="background-image: url('assets/img/hero-news-3.png')"
+              ></div>
+              <div class="hero-news__card-overlay">
+                <div class="hero-news__meta hero-news__meta--small">
+                  <span class="hero-news__tag">La Liga</span>
+                  <span class="hero-news__author">
+                    <img
+                      class="hero-news__meta-icon"
+                      src="assets/img/icons/lfp.png"
+                      alt=""
+                      aria-hidden="true"
+                    />
+                    Author</span
+                  >
+                  <span class="hero-news__date">
+                    <img
+                      class="hero-news__meta-icon"
+                      src="assets/img/svg/clock-icon.svg"
+                      alt=""
+                      aria-hidden="true"
+                    />
+                    25.11.2025</span
+                  >
+                </div>
+                <h3 class="hero-news__title hero-news__title--small">
+                  Second slide for first small card
+                </h3>
+              </div>
+            </a>
+          </article>
+        </div>
+        <button
+          type="button"
+          class="hero-news__arrow hero-news__arrow--prev"
+          aria-label="Previous"
+        >
+          <img src="assets/img/svg/chevron-left.svg" alt="Previous slide" />
+        </button>
+        <button
+          type="button"
+          class="hero-news__arrow hero-news__arrow--next"
+          aria-label="Next"
+        >
+          <img src="assets/img/svg/chevron-left.svg" alt="Next slide" />
+        </button>
+        <div class="hero-news__indicators">
+          <label for="hero-side-1-1" class="hero-news__indicator"></label>
+          <label for="hero-side-1-2" class="hero-news__indicator"></label>
+        </div>
+      </div>
+
+      <div
+        class="hero-news__small-slider hero-news__slider"
+        data-hero-slider="side-2"
+        data-slides="2"
+      >
+        <input
+          type="radio"
+          name="hero-side-2"
+          id="hero-side-2-1"
+          checked
+          hidden
+          class="hero-news__input"
+        />
+        <input
+          type="radio"
+          name="hero-side-2"
+          id="hero-side-2-2"
+          hidden
+          class="hero-news__input"
+        />
+        <div class="hero-news__slides">
+          <article class="hero-news__slide">
+            <a href="#" class="hero-news__card hero-news__card--small">
+              <div
+                class="hero-news__card-bg"
+                style="background-image: url('assets/img/hero-news-3.png')"
+              ></div>
+              <div class="hero-news__card-overlay">
+                <div class="hero-news__meta hero-news__meta--small">
+                  <span class="hero-news__tag">Serie A</span>
+                  <span class="hero-news__author">
+                    <img
+                      class="hero-news__meta-icon"
+                      src="assets/img/icons/lfp.png"
+                      alt=""
+                      aria-hidden="true"
+                    />
+                    Name</span
+                  >
+                  <span class="hero-news__date">
+                    <img
+                      class="hero-news__meta-icon"
+                      src="assets/img/svg/clock-icon.svg"
+                      alt=""
+                      aria-hidden="true"
+                    />
+                    23.11.2025</span
+                  >
+                </div>
+                <h3 class="hero-news__title hero-news__title--small">
+                  Middle card headline and second slide option
+                </h3>
+              </div>
+            </a>
+          </article>
+          <article class="hero-news__slide">
+            <a href="#" class="hero-news__card hero-news__card--small">
+              <div
+                class="hero-news__card-bg"
+                style="background-image: url('assets/img/hero-news-1.png')"
+              ></div>
+              <div class="hero-news__card-overlay">
+                <div class="hero-news__meta hero-news__meta--small">
+                  <span class="hero-news__tag">News</span>
+                  <span class="hero-news__date">
+                    <img
+                      class="hero-news__meta-icon"
+                      src="assets/img/svg/clock-icon.svg"
+                      alt=""
+                      aria-hidden="true"
+                    />
+                    26.11.2025</span
+                  >
+                </div>
+                <h3 class="hero-news__title hero-news__title--small">
+                  Slide two of middle card
+                </h3>
+              </div>
+            </a>
+          </article>
+        </div>
+        <button
+          type="button"
+          class="hero-news__arrow hero-news__arrow--prev"
+          aria-label="Previous"
+        >
+          <img src="assets/img/svg/chevron-left.svg" alt="Previous slide" />
+        </button>
+        <button
+          type="button"
+          class="hero-news__arrow hero-news__arrow--next"
+          aria-label="Next"
+        >
+          <img src="assets/img/svg/chevron-left.svg" alt="Next slide" />
+        </button>
+        <div class="hero-news__indicators">
+          <label for="hero-side-2-1" class="hero-news__indicator"></label>
+          <label for="hero-side-2-2" class="hero-news__indicator"></label>
+        </div>
+      </div>
+
+      <div
+        class="hero-news__small-slider hero-news__slider"
+        data-hero-slider="side-3"
+        data-slides="2"
+      >
+        <input
+          type="radio"
+          name="hero-side-3"
+          id="hero-side-3-1"
+          checked
+          hidden
+          class="hero-news__input"
+        />
+        <input
+          type="radio"
+          name="hero-side-3"
+          id="hero-side-3-2"
+          hidden
+          class="hero-news__input"
+        />
+        <div class="hero-news__slides">
+          <article class="hero-news__slide">
+            <a href="#" class="hero-news__card hero-news__card--small">
+              <div
+                class="hero-news__card-bg"
+                style="background-image: url('assets/img/hero-news-4.png')"
+              ></div>
+              <div class="hero-news__card-overlay">
+                <div class="hero-news__meta hero-news__meta--small">
+                  <span class="hero-news__tag">Bundesliga</span>
+                  <span class="hero-news__author">
+                    <img
+                      class="hero-news__meta-icon"
+                      src="assets/img/icons/lfp.png"
+                      alt=""
+                      aria-hidden="true"
+                    />
+                    Writer</span
+                  >
+                  <span class="hero-news__date">
+                    <img
+                      class="hero-news__meta-icon"
+                      src="assets/img/svg/clock-icon.svg"
+                      alt=""
+                      aria-hidden="true"
+                    />
+                    22.11.2025</span
+                  >
+                </div>
+                <h3 class="hero-news__title hero-news__title--small">
+                  Bottom small card first slide headline
+                </h3>
+              </div>
+            </a>
+          </article>
+          <article class="hero-news__slide">
+            <a href="#" class="hero-news__card hero-news__card--small">
+              <div
+                class="hero-news__card-bg"
+                style="background-image: url('assets/img/hero-news-1.png')"
+              ></div>
+              <div class="hero-news__card-overlay">
+                <div class="hero-news__meta hero-news__meta--small">
+                  <span class="hero-news__tag">Tips</span>
+                  <span class="hero-news__date">
+                    <img
+                      class="hero-news__meta-icon"
+                      src="assets/img/svg/clock-icon.svg"
+                      alt=""
+                      aria-hidden="true"
+                    />
+                    27.11.2025</span
+                  >
+                </div>
+                <h3 class="hero-news__title hero-news__title--small">
+                  Bottom card slide two
+                </h3>
+              </div>
+            </a>
+          </article>
+        </div>
+        <button
+          type="button"
+          class="hero-news__arrow hero-news__arrow--prev"
+          aria-label="Previous"
+        >
+          <img src="assets/img/svg/chevron-left.svg" alt="Previous slide" />
+        </button>
+        <button
+          type="button"
+          class="hero-news__arrow hero-news__arrow--next"
+          aria-label="Next"
+        >
+          <img src="assets/img/svg/chevron-left.svg" alt="Next slide" />
+        </button>
+        <div class="hero-news__indicators">
+          <label for="hero-side-3-1" class="hero-news__indicator"></label>
+          <label for="hero-side-3-2" class="hero-news__indicator"></label>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="newsletter-inplay">
+  <div class="container newsletter-inplay__inner">
+    <!-- prettier-ignore -->
+    <div class="newsletter-inplay__subscribe newsletter-inplay__subscribe">
+  <div class="newsletter-inplay__subscribe-bg" aria-hidden="true"></div>
+  <div class="newsletter-inplay__subscribe-inner">
+    <div class="subscribe-form">
+      <h2 class="subscribe-form__title">
+        WINNING PREDICTIONS ARE READY IN YOUR BOX!
+      </h2>
+      <p class="subscribe-form__text">
+        Get the best promo codes & Bonus Codes Delivered!
+      </p>
+      <form
+        class="subscribe-form__form"
+        action="#"
+        method="get"
+        aria-label="Subscribe by email"
+      >
+        <input
+          type="email"
+          class="subscribe-form__input"
+          name="email"
+          placeholder="Enter your email"
+          required
+          aria-label="Email address"
+        />
+        <button type="submit" class="subscribe-form__submit">
+          Subscribe Now
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+
+
+    <!-- In Play block (always visible; on mobile — only this block) -->
+    <div class="newsletter-inplay__inplay">
+      <div class="newsletter-inplay__inplay-header">
+        <span class="newsletter-inplay__inplay-dot" aria-hidden="true"></span>
+        <span class="newsletter-inplay__inplay-label">IN PLAY</span>
+        <div class="newsletter-inplay__inplay-nav" aria-label="Scroll leagues">
+          <button
+            type="button"
+            class="newsletter-inplay__inplay-arrow newsletter-inplay__inplay-arrow--prev"
+            aria-label="Previous"
+          >
+            <svg
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path d="M15 18l-6-6 6-6" />
+            </svg>
+          </button>
+          <button
+            type="button"
+            class="newsletter-inplay__inplay-arrow newsletter-inplay__inplay-arrow--next"
+            aria-label="Next"
+          >
+            <svg
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path d="M9 18l6-6-6-6" />
+            </svg>
+          </button>
+        </div>
+      </div>
+      <div class="newsletter-inplay__leagues-wrap">
+        <div class="newsletter-inplay__leagues" id="inplay-leagues">
+          <a
+            href="#club-1"
+            class="newsletter-inplay__league"
+            aria-label="Club 1"
+          >
+            <img
+              src="assets/img/icons/in-play-1.png"
+              alt=""
+              class="newsletter-inplay__league-img"
+            />
+          </a>
+          <a
+            href="#club-2"
+            class="newsletter-inplay__league"
+            aria-label="Club 2"
+          >
+            <img
+              src="assets/img/icons/in-play-2.png"
+              alt=""
+              class="newsletter-inplay__league-img"
+            />
+          </a>
+          <a
+            href="#club-3"
+            class="newsletter-inplay__league"
+            aria-label="Club 3"
+          >
+            <img
+              src="assets/img/icons/in-play-3.png"
+              alt=""
+              class="newsletter-inplay__league-img"
+            />
+          </a>
+          <a
+            href="#club-4"
+            class="newsletter-inplay__league"
+            aria-label="Club 4"
+          >
+            <img
+              src="assets/img/icons/in-play-4.png"
+              alt=""
+              class="newsletter-inplay__league-img"
+            />
+          </a>
+          <a
+            href="#club-5"
+            class="newsletter-inplay__league"
+            aria-label="Club 5"
+          >
+            <img
+              src="assets/img/icons/in-play-5.png"
+              alt=""
+              class="newsletter-inplay__league-img"
+            />
+          </a>
+          <a
+            href="#club-1"
+            class="newsletter-inplay__league"
+            aria-label="Club 1"
+          >
+            <img
+              src="assets/img/icons/in-play-1.png"
+              alt=""
+              class="newsletter-inplay__league-img"
+            />
+          </a>
+          <a
+            href="#club-2"
+            class="newsletter-inplay__league"
+            aria-label="Club 2"
+          >
+            <img
+              src="assets/img/icons/in-play-2.png"
+              alt=""
+              class="newsletter-inplay__league-img"
+            />
+          </a>
+          <a
+            href="#club-3"
+            class="newsletter-inplay__league"
+            aria-label="Club 3"
+          >
+            <img
+              src="assets/img/icons/in-play-3.png"
+              alt=""
+              class="newsletter-inplay__league-img"
+            />
+          </a>
+          <a
+            href="#club-4"
+            class="newsletter-inplay__league"
+            aria-label="Club 4"
+          >
+            <img
+              src="assets/img/icons/in-play-4.png"
+              alt=""
+              class="newsletter-inplay__league-img"
+            />
+          </a>
+          <a
+            href="#club-5"
+            class="newsletter-inplay__league"
+            aria-label="Club 5"
+          >
+            <img
+              src="assets/img/icons/in-play-5.png"
+              alt=""
+              class="newsletter-inplay__league-img"
+            />
+          </a>
+          <a
+            href="#club-1"
+            class="newsletter-inplay__league"
+            aria-label="Club 1"
+          >
+            <img
+              src="assets/img/icons/in-play-1.png"
+              alt=""
+              class="newsletter-inplay__league-img"
+            />
+          </a>
+          <a
+            href="#club-2"
+            class="newsletter-inplay__league"
+            aria-label="Club 2"
+          >
+            <img
+              src="assets/img/icons/in-play-2.png"
+              alt=""
+              class="newsletter-inplay__league-img"
+            />
+          </a>
+          <a
+            href="#club-3"
+            class="newsletter-inplay__league"
+            aria-label="Club 3"
+          >
+            <img
+              src="assets/img/icons/in-play-3.png"
+              alt=""
+              class="newsletter-inplay__league-img"
+            />
+          </a>
+          <a
+            href="#club-4"
+            class="newsletter-inplay__league"
+            aria-label="Club 4"
+          >
+            <img
+              src="assets/img/icons/in-play-4.png"
+              alt=""
+              class="newsletter-inplay__league-img"
+            />
+          </a>
+          <a
+            href="#club-5"
+            class="newsletter-inplay__league"
+            aria-label="Club 5"
+          >
+            <img
+              src="assets/img/icons/in-play-5.png"
+              alt=""
+              class="newsletter-inplay__league-img"
+            />
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="predictions-today">
+  <div class="container predictions-today__inner">
+    <div class="predictions-today__box">
+      <div class="predictions-today__header">
+        <h2 class="predictions-today__title">Predictions For Today</h2>
+        <div class="predictions-today__nav">
+          <div class="predictions-today__indicators" aria-hidden="true">
+            <span
+              class="predictions-today__indicator predictions-today__indicator--active"
+            ></span>
+            <span class="predictions-today__indicator"></span>
+            <span class="predictions-today__indicator"></span>
+          </div>
+          <a href="#all-predictions" class="predictions-today__see-all"
+            >see all</a
+          >
+        </div>
+      </div>
+      <div class="predictions-today__cards-wrap">
+        <div class="predictions-today__cards">
+          <article class="predictions-today__card">
+            <p class="predictions-today__league">UEFA Champions League</p>
+            <div class="predictions-today__match">
+              <div class="predictions-today__team">
+                <img
+                  src="assets/img/icons/fcl.png"
+                  alt="FCL"
+                  class="predictions-today__team-logo"
+                />
+                <span class="predictions-today__team-name">FCL</span>
+              </div>
+              <div class="predictions-today__vs-wrap">
+                <span class="predictions-today__vs">VS</span>
+                <div class="predictions-today__score-wrap">
+                  <span class="predictions-today__score">2 - 0</span>
+                </div>
+                <span class="predictions-today__score-label"
+                  >*Our Prediction</span
+                >
+              </div>
+              <div class="predictions-today__team">
+                <img
+                  src="assets/img/icons/pfc.png"
+                  alt="PFC"
+                  class="predictions-today__team-logo"
+                />
+                <span class="predictions-today__team-name">PFC</span>
+              </div>
+            </div>
+            <p class="predictions-today__date">30.10.2025 - 17:00</p>
+            <div class="predictions-today__actions">
+              <a
+                href="#full-predict"
+                class="predictions-today__btn predictions-today__btn--full"
+                >Full Predict</a
+              >
+              <a
+                href="#back-bet"
+                class="predictions-today__btn predictions-today__btn--bet"
+                >Back Bet</a
+              >
+            </div>
+          </article>
+          <article class="predictions-today__card">
+            <p class="predictions-today__league">UEFA Champions League</p>
+            <div class="predictions-today__match">
+              <div class="predictions-today__team">
+                <img
+                  src="assets/img/icons/fcl.png"
+                  alt="FCL"
+                  class="predictions-today__team-logo"
+                />
+                <span class="predictions-today__team-name">FCL</span>
+              </div>
+              <div class="predictions-today__vs-wrap">
+                <span class="predictions-today__vs">VS</span>
+                <div class="predictions-today__score-wrap">
+                  <span class="predictions-today__score">2 - 0</span>
+                </div>
+                <span class="predictions-today__score-label"
+                  >*Our Prediction</span
+                >
+              </div>
+              <div class="predictions-today__team">
+                <img
+                  src="assets/img/icons/pfc.png"
+                  alt="PFC"
+                  class="predictions-today__team-logo"
+                />
+                <span class="predictions-today__team-name">PFC</span>
+              </div>
+            </div>
+            <p class="predictions-today__date">30.10.2025 - 17:00</p>
+            <div class="predictions-today__actions">
+              <a
+                href="#full-predict"
+                class="predictions-today__btn predictions-today__btn--full"
+                >Full Predict</a
+              >
+              <a
+                href="#back-bet"
+                class="predictions-today__btn predictions-today__btn--bet"
+                >Back Bet</a
+              >
+            </div>
+          </article>
+          <article class="predictions-today__card">
+            <p class="predictions-today__league">UEFA Champions League</p>
+            <div class="predictions-today__match">
+              <div class="predictions-today__team">
+                <img
+                  src="assets/img/icons/fcl.png"
+                  alt="FCL"
+                  class="predictions-today__team-logo"
+                />
+                <span class="predictions-today__team-name">FCL</span>
+              </div>
+              <div class="predictions-today__vs-wrap">
+                <span class="predictions-today__vs">VS</span>
+                <div class="predictions-today__score-wrap">
+                  <span class="predictions-today__score">2 - 0</span>
+                </div>
+                <span class="predictions-today__score-label"
+                  >*Our Prediction</span
+                >
+              </div>
+              <div class="predictions-today__team">
+                <img
+                  src="assets/img/icons/pfc.png"
+                  alt="PFC"
+                  class="predictions-today__team-logo"
+                />
+                <span class="predictions-today__team-name">PFC</span>
+              </div>
+            </div>
+            <p class="predictions-today__date">30.10.2025 - 17:00</p>
+            <div class="predictions-today__actions">
+              <a
+                href="#full-predict"
+                class="predictions-today__btn predictions-today__btn--full"
+                >Full Predict</a
+              >
+              <a
+                href="#back-bet"
+                class="predictions-today__btn predictions-today__btn--bet"
+                >Back Bet</a
+              >
+            </div>
+          </article>
+          <article class="predictions-today__card">
+            <p class="predictions-today__league">UEFA Champions League</p>
+            <div class="predictions-today__match">
+              <div class="predictions-today__team">
+                <img
+                  src="assets/img/icons/fcl.png"
+                  alt="FCL"
+                  class="predictions-today__team-logo"
+                />
+                <span class="predictions-today__team-name">FCL</span>
+              </div>
+              <div class="predictions-today__vs-wrap">
+                <span class="predictions-today__vs">VS</span>
+                <div class="predictions-today__score-wrap">
+                  <span class="predictions-today__score">2 - 0</span>
+                </div>
+                <span class="predictions-today__score-label"
+                  >*Our Prediction</span
+                >
+              </div>
+              <div class="predictions-today__team">
+                <img
+                  src="assets/img/icons/pfc.png"
+                  alt="PFC"
+                  class="predictions-today__team-logo"
+                />
+                <span class="predictions-today__team-name">PFC</span>
+              </div>
+            </div>
+            <p class="predictions-today__date">30.10.2025 - 17:00</p>
+            <div class="predictions-today__actions">
+              <a
+                href="#full-predict"
+                class="predictions-today__btn predictions-today__btn--full"
+                >Full Predict</a
+              >
+              <a
+                href="#back-bet"
+                class="predictions-today__btn predictions-today__btn--bet"
+                >Back Bet</a
+              >
+            </div>
+          </article>
+          <article class="predictions-today__card">
+            <p class="predictions-today__league">UEFA Champions League</p>
+            <div class="predictions-today__match">
+              <div class="predictions-today__team">
+                <img
+                  src="assets/img/icons/fcl.png"
+                  alt="FCL"
+                  class="predictions-today__team-logo"
+                />
+                <span class="predictions-today__team-name">FCL</span>
+              </div>
+              <div class="predictions-today__vs-wrap">
+                <span class="predictions-today__vs">VS</span>
+                <div class="predictions-today__score-wrap">
+                  <span class="predictions-today__score">2 - 0</span>
+                </div>
+                <span class="predictions-today__score-label"
+                  >*Our Prediction</span
+                >
+              </div>
+              <div class="predictions-today__team">
+                <img
+                  src="assets/img/icons/pfc.png"
+                  alt="PFC"
+                  class="predictions-today__team-logo"
+                />
+                <span class="predictions-today__team-name">PFC</span>
+              </div>
+            </div>
+            <p class="predictions-today__date">30.10.2025 - 17:00</p>
+            <div class="predictions-today__actions">
+              <a
+                href="#full-predict"
+                class="predictions-today__btn predictions-today__btn--full"
+                >Full Predict</a
+              >
+              <a
+                href="#back-bet"
+                class="predictions-today__btn predictions-today__btn--bet"
+                >Back Bet</a
+              >
+            </div>
+          </article>
+          <article class="predictions-today__card">
+            <p class="predictions-today__league">UEFA Champions League</p>
+            <div class="predictions-today__match">
+              <div class="predictions-today__team">
+                <img
+                  src="assets/img/icons/fcl.png"
+                  alt="FCL"
+                  class="predictions-today__team-logo"
+                />
+                <span class="predictions-today__team-name">FCL</span>
+              </div>
+              <div class="predictions-today__vs-wrap">
+                <span class="predictions-today__vs">VS</span>
+                <div class="predictions-today__score-wrap">
+                  <span class="predictions-today__score">2 - 0</span>
+                </div>
+                <span class="predictions-today__score-label"
+                  >*Our Prediction</span
+                >
+              </div>
+              <div class="predictions-today__team">
+                <img
+                  src="assets/img/icons/pfc.png"
+                  alt="PFC"
+                  class="predictions-today__team-logo"
+                />
+                <span class="predictions-today__team-name">PFC</span>
+              </div>
+            </div>
+            <p class="predictions-today__date">30.10.2025 - 17:00</p>
+            <div class="predictions-today__actions">
+              <a
+                href="#full-predict"
+                class="predictions-today__btn predictions-today__btn--full"
+                >Full Predict</a
+              >
+              <a
+                href="#back-bet"
+                class="predictions-today__btn predictions-today__btn--bet"
+                >Back Bet</a
+              >
+            </div>
+          </article>
+          <article class="predictions-today__card">
+            <p class="predictions-today__league">UEFA Champions League</p>
+            <div class="predictions-today__match">
+              <div class="predictions-today__team">
+                <img
+                  src="assets/img/icons/fcl.png"
+                  alt="FCL"
+                  class="predictions-today__team-logo"
+                />
+                <span class="predictions-today__team-name">FCL</span>
+              </div>
+              <div class="predictions-today__vs-wrap">
+                <span class="predictions-today__vs">VS</span>
+                <div class="predictions-today__score-wrap">
+                  <span class="predictions-today__score">2 - 0</span>
+                </div>
+                <span class="predictions-today__score-label"
+                  >*Our Prediction</span
+                >
+              </div>
+              <div class="predictions-today__team">
+                <img
+                  src="assets/img/icons/pfc.png"
+                  alt="PFC"
+                  class="predictions-today__team-logo"
+                />
+                <span class="predictions-today__team-name">PFC</span>
+              </div>
+            </div>
+            <p class="predictions-today__date">30.10.2025 - 17:00</p>
+            <div class="predictions-today__actions">
+              <a
+                href="#full-predict"
+                class="predictions-today__btn predictions-today__btn--full"
+                >Full Predict</a
+              >
+              <a
+                href="#back-bet"
+                class="predictions-today__btn predictions-today__btn--bet"
+                >Back Bet</a
+              >
+            </div>
+          </article>
+          <article class="predictions-today__card">
+            <p class="predictions-today__league">UEFA Champions League</p>
+            <div class="predictions-today__match">
+              <div class="predictions-today__team">
+                <img
+                  src="assets/img/icons/fcl.png"
+                  alt="FCL"
+                  class="predictions-today__team-logo"
+                />
+                <span class="predictions-today__team-name">FCL</span>
+              </div>
+              <div class="predictions-today__vs-wrap">
+                <span class="predictions-today__vs">VS</span>
+                <div class="predictions-today__score-wrap">
+                  <span class="predictions-today__score">2 - 0</span>
+                </div>
+                <span class="predictions-today__score-label"
+                  >*Our Prediction</span
+                >
+              </div>
+              <div class="predictions-today__team">
+                <img
+                  src="assets/img/icons/pfc.png"
+                  alt="PFC"
+                  class="predictions-today__team-logo"
+                />
+                <span class="predictions-today__team-name">PFC</span>
+              </div>
+            </div>
+            <p class="predictions-today__date">30.10.2025 - 17:00</p>
+            <div class="predictions-today__actions">
+              <a
+                href="#full-predict"
+                class="predictions-today__btn predictions-today__btn--full"
+                >Full Predict</a
+              >
+              <a
+                href="#back-bet"
+                class="predictions-today__btn predictions-today__btn--bet"
+                >Back Bet</a
+              >
+            </div>
+          </article>
+          <article class="predictions-today__card">
+            <p class="predictions-today__league">UEFA Champions League</p>
+            <div class="predictions-today__match">
+              <div class="predictions-today__team">
+                <img
+                  src="assets/img/icons/fcl.png"
+                  alt="FCL"
+                  class="predictions-today__team-logo"
+                />
+                <span class="predictions-today__team-name">FCL</span>
+              </div>
+              <div class="predictions-today__vs-wrap">
+                <span class="predictions-today__vs">VS</span>
+                <div class="predictions-today__score-wrap">
+                  <span class="predictions-today__score">2 - 0</span>
+                </div>
+                <span class="predictions-today__score-label"
+                  >*Our Prediction</span
+                >
+              </div>
+              <div class="predictions-today__team">
+                <img
+                  src="assets/img/icons/pfc.png"
+                  alt="PFC"
+                  class="predictions-today__team-logo"
+                />
+                <span class="predictions-today__team-name">PFC</span>
+              </div>
+            </div>
+            <p class="predictions-today__date">30.10.2025 - 17:00</p>
+            <div class="predictions-today__actions">
+              <a
+                href="#full-predict"
+                class="predictions-today__btn predictions-today__btn--full"
+                >Full Predict</a
+              >
+              <a
+                href="#back-bet"
+                class="predictions-today__btn predictions-today__btn--bet"
+                >Back Bet</a
+              >
+            </div>
+          </article>
+          <article class="predictions-today__card">
+            <p class="predictions-today__league">UEFA Champions League</p>
+            <div class="predictions-today__match">
+              <div class="predictions-today__team">
+                <img
+                  src="assets/img/icons/fcl.png"
+                  alt="FCL"
+                  class="predictions-today__team-logo"
+                />
+                <span class="predictions-today__team-name">FCL</span>
+              </div>
+              <div class="predictions-today__vs-wrap">
+                <span class="predictions-today__vs">VS</span>
+                <div class="predictions-today__score-wrap">
+                  <span class="predictions-today__score">2 - 0</span>
+                </div>
+                <span class="predictions-today__score-label"
+                  >*Our Prediction</span
+                >
+              </div>
+              <div class="predictions-today__team">
+                <img
+                  src="assets/img/icons/pfc.png"
+                  alt="PFC"
+                  class="predictions-today__team-logo"
+                />
+                <span class="predictions-today__team-name">PFC</span>
+              </div>
+            </div>
+            <p class="predictions-today__date">30.10.2025 - 17:00</p>
+            <div class="predictions-today__actions">
+              <a
+                href="#full-predict"
+                class="predictions-today__btn predictions-today__btn--full"
+                >Full Predict</a
+              >
+              <a
+                href="#back-bet"
+                class="predictions-today__btn predictions-today__btn--bet"
+                >Back Bet</a
+              >
+            </div>
+          </article>
+          <article class="predictions-today__card">
+            <p class="predictions-today__league">UEFA Champions League</p>
+            <div class="predictions-today__match">
+              <div class="predictions-today__team">
+                <img
+                  src="assets/img/icons/fcl.png"
+                  alt="FCL"
+                  class="predictions-today__team-logo"
+                />
+                <span class="predictions-today__team-name">FCL</span>
+              </div>
+              <div class="predictions-today__vs-wrap">
+                <span class="predictions-today__vs">VS</span>
+                <div class="predictions-today__score-wrap">
+                  <span class="predictions-today__score">2 - 0</span>
+                </div>
+                <span class="predictions-today__score-label"
+                  >*Our Prediction</span
+                >
+              </div>
+              <div class="predictions-today__team">
+                <img
+                  src="assets/img/icons/pfc.png"
+                  alt="PFC"
+                  class="predictions-today__team-logo"
+                />
+                <span class="predictions-today__team-name">PFC</span>
+              </div>
+            </div>
+            <p class="predictions-today__date">30.10.2025 - 17:00</p>
+            <div class="predictions-today__actions">
+              <a
+                href="#full-predict"
+                class="predictions-today__btn predictions-today__btn--full"
+                >Full Predict</a
+              >
+              <a
+                href="#back-bet"
+                class="predictions-today__btn predictions-today__btn--bet"
+                >Back Bet</a
+              >
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="latest-predictions">
+  <div class="container latest-predictions__inner">
+    <div class="latest-predictions__box">
+      <div class="latest-predictions__header">
+        <h2 class="latest-predictions__title">Latest Predictions</h2>
+        <div class="latest-predictions__indicators" aria-hidden="true">
+          <span
+            class="latest-predictions__indicator latest-predictions__indicator--active"
+          ></span>
+          <span class="latest-predictions__indicator"></span>
+          <span class="latest-predictions__indicator"></span>
+        </div>
+      </div>
+      <div class="latest-predictions__table-wrap">
+        <div class="latest-predictions__table">
+          <div class="latest-predictions__thead">
+            <div class="latest-predictions__row">
+              <div class="latest-predictions__th latest-predictions__th--date">
+                Date & Time
+              </div>
+              <div
+                class="latest-predictions__th latest-predictions__th--fixture"
+              >
+                Fixture
+              </div>
+              <div class="latest-predictions__th latest-predictions__th--bet">
+                Our Best Bet
+              </div>
+              <div class="latest-predictions__th latest-predictions__th--prob">
+                Probability %
+              </div>
+              <div class="latest-predictions__th latest-predictions__th--odds">
+                Odds & Preview
+              </div>
+            </div>
+          </div>
+          <div class="latest-predictions__tbody">
+            <div class="latest-predictions__row">
+              <div
+                class="latest-predictions__cell latest-predictions__cell--date"
+              >
+                <span class="latest-predictions__date">30.10.2025</span>
+                <span class="latest-predictions__time">05:00 PM</span>
+              </div>
+              <div
+                class="latest-predictions__cell latest-predictions__cell--fixture"
+              >
+                <div class="latest-predictions__fixture">
+                  <img
+                    src="assets/img/icons/fcl.png"
+                    alt="FC Lorient"
+                    class="latest-predictions__team-logo"
+                  />
+                  <span class="latest-predictions__team-name">FC Lorient</span>
+                  <span class="latest-predictions__vs">VS</span>
+                  <img
+                    src="assets/img/icons/pfc.png"
+                    alt="Paris FC"
+                    class="latest-predictions__team-logo"
+                  />
+                  <span class="latest-predictions__team-name">Paris FC</span>
+                </div>
+              </div>
+              <div
+                class="latest-predictions__cell latest-predictions__cell--bet"
+              >
+                <span class="latest-predictions__bet-main">Over 1.5</span>
+                <span class="latest-predictions__bet-sub">Goals</span>
+              </div>
+              <div
+                class="latest-predictions__cell latest-predictions__cell--prob"
+              >
+                <div
+                  class="latest-predictions__prob-ring"
+                  aria-hidden="true"
+                  style="--prob: 73"
+                >
+                  <span class="latest-predictions__prob-value">73%</span>
+                </div>
+              </div>
+              <div
+                class="latest-predictions__cell latest-predictions__cell--odds"
+              >
+                <div class="latest-predictions__odds-block">
+                  <button type="button" class="latest-predictions__odds-btn">
+                    <span class="latest-predictions__odds-value">3.35</span>
+                    <span class="latest-predictions__odds-add">Add</span>
+                  </button>
+                  <a href="#tips" class="latest-predictions__tips-link"
+                    >Match Tips →</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="latest-predictions__row">
+              <div
+                class="latest-predictions__cell latest-predictions__cell--date"
+              >
+                <span class="latest-predictions__date">30.10.2025</span>
+                <span class="latest-predictions__time">05:00 PM</span>
+              </div>
+              <div
+                class="latest-predictions__cell latest-predictions__cell--fixture"
+              >
+                <div class="latest-predictions__fixture">
+                  <img
+                    src="assets/img/icons/fcl.png"
+                    alt="FC Lorient"
+                    class="latest-predictions__team-logo"
+                  />
+                  <span class="latest-predictions__team-name">FC Lorient</span>
+                  <span class="latest-predictions__vs">VS</span>
+                  <img
+                    src="assets/img/icons/pfc.png"
+                    alt="Paris FC"
+                    class="latest-predictions__team-logo"
+                  />
+                  <span class="latest-predictions__team-name">Paris FC</span>
+                </div>
+              </div>
+              <div
+                class="latest-predictions__cell latest-predictions__cell--bet"
+              >
+                <span class="latest-predictions__bet-main">Over 1.5</span>
+                <span class="latest-predictions__bet-sub">Goals</span>
+              </div>
+              <div
+                class="latest-predictions__cell latest-predictions__cell--prob"
+              >
+                <div
+                  class="latest-predictions__prob-ring"
+                  aria-hidden="true"
+                  style="--prob: 68"
+                >
+                  <span class="latest-predictions__prob-value">68%</span>
+                </div>
+              </div>
+              <div
+                class="latest-predictions__cell latest-predictions__cell--odds"
+              >
+                <div class="latest-predictions__odds-block">
+                  <button type="button" class="latest-predictions__odds-btn">
+                    <span class="latest-predictions__odds-value">2.90</span>
+                    <span class="latest-predictions__odds-add">Add</span>
+                  </button>
+                  <a href="#tips" class="latest-predictions__tips-link"
+                    >Match Tips →</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="latest-predictions__row">
+              <div
+                class="latest-predictions__cell latest-predictions__cell--date"
+              >
+                <span class="latest-predictions__date">30.10.2025</span>
+                <span class="latest-predictions__time">05:00 PM</span>
+              </div>
+              <div
+                class="latest-predictions__cell latest-predictions__cell--fixture"
+              >
+                <div class="latest-predictions__fixture">
+                  <img
+                    src="assets/img/icons/fcl.png"
+                    alt="FC Lorient"
+                    class="latest-predictions__team-logo"
+                  />
+                  <span class="latest-predictions__team-name">FC Lorient</span>
+                  <span class="latest-predictions__vs">VS</span>
+                  <img
+                    src="assets/img/icons/pfc.png"
+                    alt="Paris FC"
+                    class="latest-predictions__team-logo"
+                  />
+                  <span class="latest-predictions__team-name">Paris FC</span>
+                </div>
+              </div>
+              <div
+                class="latest-predictions__cell latest-predictions__cell--bet"
+              >
+                <span class="latest-predictions__bet-main">Over 1.5</span>
+                <span class="latest-predictions__bet-sub">Goals</span>
+              </div>
+              <div
+                class="latest-predictions__cell latest-predictions__cell--prob"
+              >
+                <div
+                  class="latest-predictions__prob-ring"
+                  aria-hidden="true"
+                  style="--prob: 73"
+                >
+                  <span class="latest-predictions__prob-value">73%</span>
+                </div>
+              </div>
+              <div
+                class="latest-predictions__cell latest-predictions__cell--odds"
+              >
+                <div class="latest-predictions__odds-block">
+                  <button type="button" class="latest-predictions__odds-btn">
+                    <span class="latest-predictions__odds-value">3.35</span>
+                    <span class="latest-predictions__odds-add">Add</span>
+                  </button>
+                  <a href="#tips" class="latest-predictions__tips-link"
+                    >Match Tips →</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="latest-predictions__row">
+              <div
+                class="latest-predictions__cell latest-predictions__cell--date"
+              >
+                <span class="latest-predictions__date">30.10.2025</span>
+                <span class="latest-predictions__time">05:00 PM</span>
+              </div>
+              <div
+                class="latest-predictions__cell latest-predictions__cell--fixture"
+              >
+                <div class="latest-predictions__fixture">
+                  <img
+                    src="assets/img/icons/fcl.png"
+                    alt="FC Lorient"
+                    class="latest-predictions__team-logo"
+                  />
+                  <span class="latest-predictions__team-name">FC Lorient</span>
+                  <span class="latest-predictions__vs">VS</span>
+                  <img
+                    src="assets/img/icons/pfc.png"
+                    alt="Paris FC"
+                    class="latest-predictions__team-logo"
+                  />
+                  <span class="latest-predictions__team-name">Paris FC</span>
+                </div>
+              </div>
+              <div
+                class="latest-predictions__cell latest-predictions__cell--bet"
+              >
+                <span class="latest-predictions__bet-main">Over 1.5</span>
+                <span class="latest-predictions__bet-sub">Goals</span>
+              </div>
+              <div
+                class="latest-predictions__cell latest-predictions__cell--prob"
+              >
+                <div
+                  class="latest-predictions__prob-ring"
+                  aria-hidden="true"
+                  style="--prob: 81"
+                >
+                  <span class="latest-predictions__prob-value">81%</span>
+                </div>
+              </div>
+              <div
+                class="latest-predictions__cell latest-predictions__cell--odds"
+              >
+                <div class="latest-predictions__odds-block">
+                  <button type="button" class="latest-predictions__odds-btn">
+                    <span class="latest-predictions__odds-value">3.35</span>
+                    <span class="latest-predictions__odds-add">Add</span>
+                  </button>
+                  <a href="#tips" class="latest-predictions__tips-link"
+                    >Match Tips →</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="latest-predictions__row">
+              <div
+                class="latest-predictions__cell latest-predictions__cell--date"
+              >
+                <span class="latest-predictions__date">30.10.2025</span>
+                <span class="latest-predictions__time">05:00 PM</span>
+              </div>
+              <div
+                class="latest-predictions__cell latest-predictions__cell--fixture"
+              >
+                <div class="latest-predictions__fixture">
+                  <img
+                    src="assets/img/icons/fcl.png"
+                    alt="FC Lorient"
+                    class="latest-predictions__team-logo"
+                  />
+                  <span class="latest-predictions__team-name">FC Lorient</span>
+                  <span class="latest-predictions__vs">VS</span>
+                  <img
+                    src="assets/img/icons/pfc.png"
+                    alt="Paris FC"
+                    class="latest-predictions__team-logo"
+                  />
+                  <span class="latest-predictions__team-name">Paris FC</span>
+                </div>
+              </div>
+              <div
+                class="latest-predictions__cell latest-predictions__cell--bet"
+              >
+                <span class="latest-predictions__bet-main">Over 1.5</span>
+                <span class="latest-predictions__bet-sub">Goals</span>
+              </div>
+              <div
+                class="latest-predictions__cell latest-predictions__cell--prob"
+              >
+                <div
+                  class="latest-predictions__prob-ring"
+                  aria-hidden="true"
+                  style="--prob: 73"
+                >
+                  <span class="latest-predictions__prob-value">73%</span>
+                </div>
+              </div>
+              <div
+                class="latest-predictions__cell latest-predictions__cell--odds"
+              >
+                <div class="latest-predictions__odds-block">
+                  <button type="button" class="latest-predictions__odds-btn">
+                    <span class="latest-predictions__odds-value">3.35</span>
+                    <span class="latest-predictions__odds-add">Add</span>
+                  </button>
+                  <a href="#tips" class="latest-predictions__tips-link"
+                    >Match Tips →</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="latest-predictions__row">
+              <div
+                class="latest-predictions__cell latest-predictions__cell--date"
+              >
+                <span class="latest-predictions__date">30.10.2025</span>
+                <span class="latest-predictions__time">05:00 PM</span>
+              </div>
+              <div
+                class="latest-predictions__cell latest-predictions__cell--fixture"
+              >
+                <div class="latest-predictions__fixture">
+                  <img
+                    src="assets/img/icons/fcl.png"
+                    alt="FC Lorient"
+                    class="latest-predictions__team-logo"
+                  />
+                  <span class="latest-predictions__team-name">FC Lorient</span>
+                  <span class="latest-predictions__vs">VS</span>
+                  <img
+                    src="assets/img/icons/pfc.png"
+                    alt="Paris FC"
+                    class="latest-predictions__team-logo"
+                  />
+                  <span class="latest-predictions__team-name">Paris FC</span>
+                </div>
+              </div>
+              <div
+                class="latest-predictions__cell latest-predictions__cell--bet"
+              >
+                <span class="latest-predictions__bet-main">Over 1.5</span>
+                <span class="latest-predictions__bet-sub">Goals</span>
+              </div>
+              <div
+                class="latest-predictions__cell latest-predictions__cell--prob"
+              >
+                <div
+                  class="latest-predictions__prob-ring"
+                  aria-hidden="true"
+                  style="--prob: 65"
+                >
+                  <span class="latest-predictions__prob-value">65%</span>
+                </div>
+              </div>
+              <div
+                class="latest-predictions__cell latest-predictions__cell--odds"
+              >
+                <div class="latest-predictions__odds-block">
+                  <button type="button" class="latest-predictions__odds-btn">
+                    <span class="latest-predictions__odds-value">2.75</span>
+                    <span class="latest-predictions__odds-add">Add</span>
+                  </button>
+                  <a href="#tips" class="latest-predictions__tips-link"
+                    >Match Tips →</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="latest-predictions__row">
+              <div
+                class="latest-predictions__cell latest-predictions__cell--date"
+              >
+                <span class="latest-predictions__date">30.10.2025</span>
+                <span class="latest-predictions__time">05:00 PM</span>
+              </div>
+              <div
+                class="latest-predictions__cell latest-predictions__cell--fixture"
+              >
+                <div class="latest-predictions__fixture">
+                  <img
+                    src="assets/img/icons/fcl.png"
+                    alt="FC Lorient"
+                    class="latest-predictions__team-logo"
+                  />
+                  <span class="latest-predictions__team-name">FC Lorient</span>
+                  <span class="latest-predictions__vs">VS</span>
+                  <img
+                    src="assets/img/icons/pfc.png"
+                    alt="Paris FC"
+                    class="latest-predictions__team-logo"
+                  />
+                  <span class="latest-predictions__team-name">Paris FC</span>
+                </div>
+              </div>
+              <div
+                class="latest-predictions__cell latest-predictions__cell--bet"
+              >
+                <span class="latest-predictions__bet-main">Over 1.5</span>
+                <span class="latest-predictions__bet-sub">Goals</span>
+              </div>
+              <div
+                class="latest-predictions__cell latest-predictions__cell--prob"
+              >
+                <div
+                  class="latest-predictions__prob-ring"
+                  aria-hidden="true"
+                  style="--prob: 73"
+                >
+                  <span class="latest-predictions__prob-value">73%</span>
+                </div>
+              </div>
+              <div
+                class="latest-predictions__cell latest-predictions__cell--odds"
+              >
+                <div class="latest-predictions__odds-block">
+                  <button type="button" class="latest-predictions__odds-btn">
+                    <span class="latest-predictions__odds-value">3.35</span>
+                    <span class="latest-predictions__odds-add">Add</span>
+                  </button>
+                  <a href="#tips" class="latest-predictions__tips-link"
+                    >Match Tips →</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="latest-predictions__row">
+              <div
+                class="latest-predictions__cell latest-predictions__cell--date"
+              >
+                <span class="latest-predictions__date">30.10.2025</span>
+                <span class="latest-predictions__time">05:00 PM</span>
+              </div>
+              <div
+                class="latest-predictions__cell latest-predictions__cell--fixture"
+              >
+                <div class="latest-predictions__fixture">
+                  <img
+                    src="assets/img/icons/fcl.png"
+                    alt="FC Lorient"
+                    class="latest-predictions__team-logo"
+                  />
+                  <span class="latest-predictions__team-name">FC Lorient</span>
+                  <span class="latest-predictions__vs">VS</span>
+                  <img
+                    src="assets/img/icons/pfc.png"
+                    alt="Paris FC"
+                    class="latest-predictions__team-logo"
+                  />
+                  <span class="latest-predictions__team-name">Paris FC</span>
+                </div>
+              </div>
+              <div
+                class="latest-predictions__cell latest-predictions__cell--bet"
+              >
+                <span class="latest-predictions__bet-main">Over 1.5</span>
+                <span class="latest-predictions__bet-sub">Goals</span>
+              </div>
+              <div
+                class="latest-predictions__cell latest-predictions__cell--prob"
+              >
+                <div
+                  class="latest-predictions__prob-ring"
+                  aria-hidden="true"
+                  style="--prob: 73"
+                >
+                  <span class="latest-predictions__prob-value">73%</span>
+                </div>
+              </div>
+              <div
+                class="latest-predictions__cell latest-predictions__cell--odds"
+              >
+                <div class="latest-predictions__odds-block">
+                  <button type="button" class="latest-predictions__odds-btn">
+                    <span class="latest-predictions__odds-value">3.35</span>
+                    <span class="latest-predictions__odds-add">Add</span>
+                  </button>
+                  <a href="#tips" class="latest-predictions__tips-link"
+                    >Match Tips →</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Right column: Betting News -->
+    <div class="betting-news">
+  <div class="betting-news__box">
+    <div class="betting-news__header">
+      <h2 class="betting-news__title">Betting News</h2>
+      <div class="betting-news__indicators" aria-hidden="true">
+        <span
+          class="betting-news__indicator betting-news__indicator--active"
+        ></span>
+        <span
+          class="betting-news__indicator betting-news__indicator--active"
+        ></span>
+        <span class="betting-news__indicator"></span>
+      </div>
+    </div>
+    <a href="#" class="betting-news__hero-link">
+      <div class="betting-news__hero">
+        <img
+          src="assets/img/betting-news-large.png"
+          alt="Exclusive free bets and predictions"
+          class="betting-news__hero-img"
+        />
+      </div>
+      <article class="betting-news__article">
+        <div class="betting-news__article-head">
+          <h3 class="betting-news__article-title">
+            Results and scores from the Premier League....!!
+          </h3>
+          <span class="betting-news__tag">Tips</span>
+        </div>
+        <p class="betting-news__article-snippet">
+          Il est frais et découvre la Ligue 2 cette saison, pourtant il est déjà
+          meilleurll est frais et découvre la Ligue 2 cette saison, pourtant il
+          est déjà meilleur Il est frais et découvre la Li..
+        </p>
+        <time class="betting-news__article-time">5 Hours Ago</time>
+      </article>
+    </a>
+    <div class="betting-news__list">
+      <a href="#" class="betting-news__card">
+        <div class="betting-news__card-img-wrap">
+          <img
+            src="assets/img/betting-news-small.png"
+            alt="Betting Tips"
+            class="betting-news__card-img"
+          />
+          <span class="betting-news__card-tag">Betting Tips</span>
+        </div>
+        <div class="betting-news__card-content">
+          <div class="betting-news__card-head">
+            <h4 class="betting-news__card-title">
+              A rising star in the Bundesliga, he's tu.
+            </h4>
+            <span class="betting-news__tag">Tips</span>
+          </div>
+          <p class="betting-news__card-desc">
+            His technique and agility have made him one of the best young
+            players, attracting the attention of top clubs.
+          </p>
+          <time class="betting-news__card-date">13 Oct 2023, 03:45 PM</time>
+        </div>
+      </a>
+      <a href="#" class="betting-news__card">
+        <div class="betting-news__card-img-wrap">
+          <img
+            src="assets/img/betting-news-small.png"
+            alt="Betting Tips"
+            class="betting-news__card-img"
+          />
+          <span class="betting-news__card-tag">Betting Tips</span>
+        </div>
+        <div class="betting-news__card-content">
+          <div class="betting-news__card-head">
+            <h4 class="betting-news__card-title">
+              A rising star in the Bundesliga, he's tu.
+            </h4>
+            <span class="betting-news__tag">Tips</span>
+          </div>
+          <p class="betting-news__card-desc">
+            His technique and agility have made him one of the best young
+            players, attracting the attention of top clubs.
+          </p>
+          <time class="betting-news__card-date">13 Oct 2023, 03:45 PM</time>
+        </div>
+      </a>
+      <a href="#" class="betting-news__card">
+        <div class="betting-news__card-img-wrap">
+          <img
+            src="assets/img/betting-news-small.png"
+            alt="Betting Tips"
+            class="betting-news__card-img"
+          />
+          <span class="betting-news__card-tag">Betting Tips</span>
+        </div>
+        <div class="betting-news__card-content">
+          <div class="betting-news__card-head">
+            <h4 class="betting-news__card-title">
+              A rising star in the Bundesliga, he's tu.
+            </h4>
+            <span class="betting-news__tag">Tips</span>
+          </div>
+          <p class="betting-news__card-desc">
+            His technique and agility have made him one of the best young
+            players, attracting the attention of top clubs.
+          </p>
+          <time class="betting-news__card-date">13 Oct 2023, 03:45 PM</time>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+
+  </div>
+</section>
+
+      <section class="claim-offer-newsletter">
+  <div class="container claim-offer-newsletter__inner">
+    <div class="claim-offer-newsletter__claim">
+      <div class="claim-offer-newsletter__claim-bg" aria-hidden="true"></div>
+      <div class="claim-offer-newsletter__claim-content">
+        <p class="claim-offer-newsletter__claim-label">Limited Time Only</p>
+        <h2 class="claim-offer-newsletter__claim-title">
+          CLAIM YOUR OFFER NOW
+        </h2>
+        <a href="#claim" class="claim-offer-newsletter__claim-btn"
+          >CLAIM NOW
+          <img src="assets/img/svg/chevron-r-black.svg" alt="Chevron right"
+        /></a>
+      </div>
+    </div>
+    <!-- prettier-ignore -->
+    <div class="newsletter-inplay__subscribe claim-offer-newsletter__subscribe-form">
+  <div class="newsletter-inplay__subscribe-bg" aria-hidden="true"></div>
+  <div class="newsletter-inplay__subscribe-inner">
+    <div class="subscribe-form">
+      <h2 class="subscribe-form__title">
+        WINNING PREDICTIONS ARE READY IN YOUR BOX!
+      </h2>
+      <p class="subscribe-form__text">
+        Get the best promo codes & Bonus Codes Delivered!
+      </p>
+      <form
+        class="subscribe-form__form"
+        action="#"
+        method="get"
+        aria-label="Subscribe by email"
+      >
+        <input
+          type="email"
+          class="subscribe-form__input"
+          name="email"
+          placeholder="Enter your email"
+          required
+          aria-label="Email address"
+        />
+        <button type="submit" class="subscribe-form__submit">
+          Subscribe Now
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+
+  </div>
+</section>
+
+      <section class="accumulator-section">
+  <div class="container accumulator-section__inner">
+    <div class="accumulator-table__box">
+      <div class="accumulator-table__header">
+        <h2 class="accumulator-table__title">FootyAccumulators</h2>
+
+        <div class="accumulator-table__toolbar">
+          <nav class="accumulator-table__nav" aria-label="Predictions filter">
+            <button type="button" class="accumulator-table__nav-btn">
+              Inplay
+            </button>
+            <button
+              type="button"
+              class="accumulator-table__nav-btn accumulator-table__nav-btn--active"
+            >
+              Today
+            </button>
+            <button type="button" class="accumulator-table__nav-btn">
+              Tomorrow
+            </button>
+            <button
+              type="button"
+              class="accumulator-table__nav-btn accumulator-table__nav-btn--filter"
+              aria-label="Filter"
+            >
+              <img src="assets/img/svg/filter.svg" alt="Filter" />
+              <div class="accumulator-table__nav-btn-text">Filter</div>
+            </button>
+          </nav>
+          <div class="accumulator-table__search-wrap">
+            <input
+              type="search"
+              class="accumulator-table__search"
+              placeholder="Searching Predictions"
+              aria-label="Search predictions"
+            />
+            <img
+              class="accumulator-table__search-icon"
+              src="assets/img/svg/search.svg"
+              alt="Search"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="accumulator-table__table-wrap">
+        <div class="accumulator-table__table">
+          <div class="accumulator-table__thead">
+            <div class="accumulator-table__row">
+              <div
+                class="accumulator-table__th accumulator-table__th--logo"
+              ></div>
+              <div class="accumulator-table__th accumulator-table__th--date">
+                Soccer Date
+              </div>
+              <div class="accumulator-table__th accumulator-table__th--teams">
+                Soccer Teams
+              </div>
+              <div class="accumulator-table__th accumulator-table__th--odds">
+                Our Prediction
+              </div>
+              <div class="accumulator-table__th accumulator-table__th--other">
+                Other Bets
+              </div>
+            </div>
+          </div>
+          <div class="accumulator-table__tbody">
+            <!-- Row 1 -->
+            <div class="accumulator-table__row">
+              <div
+                class="accumulator-table__cell accumulator-table__cell--logo"
+              >
+                <img
+                  class="accumulator-table__logo"
+                  src="assets/img/icons/fbet.png"
+                  alt="Image"
+                />
+              </div>
+              <div
+                class="accumulator-table__cell accumulator-table__cell--league"
+              >
+                <span class="accumulator-table__league-name"
+                  >Champions League, Gro.</span
+                >
+              </div>
+              <div
+                class="accumulator-table__cell accumulator-table__cell--date"
+              >
+                <span class="accumulator-table__date">30.10.2025</span>
+                <span class="accumulator-table__time">05:00 PM</span>
+              </div>
+              <div
+                class="accumulator-table__cell accumulator-table__cell--teams"
+              >
+                <span class="accumulator-table__league" aria-hidden="true"
+                  >Champions League, Gro.</span
+                >
+                <div class="accumulator-table__fixture">
+                  <div class="accumulator-table__team">
+                    <img
+                      src="assets/img/icons/fcl.png"
+                      alt="FC Lorient"
+                      class="accumulator-table__team-logo"
+                    />
+                    <div class="accumulator-table__team-info">
+                      <span class="accumulator-table__team-name"
+                        >FC Lorient</span
+                      >
+                      <div
+                        class="accumulator-table__form-dots"
+                        aria-hidden="true"
+                      >
+                        <span
+                          class="accumulator-table__dot accumulator-table__dot--w"
+                        ></span>
+                        <span
+                          class="accumulator-table__dot accumulator-table__dot--w"
+                        ></span>
+                        <span
+                          class="accumulator-table__dot accumulator-table__dot--w"
+                        ></span>
+                        <span
+                          class="accumulator-table__dot accumulator-table__dot--w"
+                        ></span>
+                        <span
+                          class="accumulator-table__dot accumulator-table__dot--d"
+                        ></span>
+                      </div>
+                    </div>
+                  </div>
+                  <span class="accumulator-table__vs">VS</span>
+                  <div class="accumulator-table__team">
+                    <img
+                      src="assets/img/icons/pfc.png"
+                      alt="Paris FC"
+                      class="accumulator-table__team-logo"
+                    />
+                    <div class="accumulator-table__team-info">
+                      <span class="accumulator-table__team-name">Paris FC</span>
+                      <div
+                        class="accumulator-table__form-dots"
+                        aria-hidden="true"
+                      >
+                        <span
+                          class="accumulator-table__dot accumulator-table__dot--w"
+                        ></span>
+                        <span
+                          class="accumulator-table__dot accumulator-table__dot--w"
+                        ></span>
+                        <span
+                          class="accumulator-table__dot accumulator-table__dot--w"
+                        ></span>
+                        <span
+                          class="accumulator-table__dot accumulator-table__dot--w"
+                        ></span>
+                        <span
+                          class="accumulator-table__dot accumulator-table__dot--w"
+                        ></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="accumulator-table__cell accumulator-table__cell--odds"
+              >
+                <div
+                  class="accumulator-table__tip-card accumulator-table__tip-card--main"
+                >
+                  <div class="accumulator-table__tip-top">
+                    <div class="accumulator-table__tip-outcome">1</div>
+                    <div class="accumulator-table__tip-odds">4.00</div>
+                  </div>
+                  <div class="accumulator-table__tip-bottom">
+                    <div class="accumulator-table__tip-pct">73%</div>
+                    <div class="accumulator-table__tip-fp">FP Tip</div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="accumulator-table__cell accumulator-table__cell--other"
+              >
+                <div class="accumulator-table__other-cards">
+                  <div
+                    class="accumulator-table__tip-card accumulator-table__tip-card--alt"
+                  >
+                    <div class="accumulator-table__tip-outcome">x</div>
+                    <div class="accumulator-table__tip-odds">4.00</div>
+                    <div class="accumulator-table__tip-pct">13%</div>
+                  </div>
+                  <div
+                    class="accumulator-table__tip-card accumulator-table__tip-card--alt"
+                  >
+                    <div class="accumulator-table__tip-outcome">2</div>
+                    <div class="accumulator-table__tip-odds">4.33</div>
+                    <div class="accumulator-table__tip-pct">13%</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Row 2 -->
+            <div class="accumulator-table__row">
+              <div
+                class="accumulator-table__cell accumulator-table__cell--logo"
+              >
+                <img
+                  class="accumulator-table__logo"
+                  src="assets/img/icons/fbet.png"
+                  alt="Image"
+                />
+              </div>
+              <div
+                class="accumulator-table__cell accumulator-table__cell--league"
+              >
+                <span class="accumulator-table__league-name"
+                  >Champions League, Gro.</span
+                >
+              </div>
+              <div
+                class="accumulator-table__cell accumulator-table__cell--date"
+              >
+                <span class="accumulator-table__date">30.10.2025</span>
+                <span class="accumulator-table__time">05:00 PM</span>
+              </div>
+              <div
+                class="accumulator-table__cell accumulator-table__cell--teams"
+              >
+                <span class="accumulator-table__league" aria-hidden="true"
+                  >Champions League, Gro.</span
+                >
+                <div class="accumulator-table__fixture">
+                  <div class="accumulator-table__team">
+                    <img
+                      src="assets/img/icons/fcl.png"
+                      alt="FC Lorient"
+                      class="accumulator-table__team-logo"
+                    />
+                    <div class="accumulator-table__team-info">
+                      <span class="accumulator-table__team-name"
+                        >FC Lorient</span
+                      >
+                      <div
+                        class="accumulator-table__form-dots"
+                        aria-hidden="true"
+                      >
+                        <span
+                          class="accumulator-table__dot accumulator-table__dot--w"
+                        ></span>
+                        <span
+                          class="accumulator-table__dot accumulator-table__dot--w"
+                        ></span>
+                        <span
+                          class="accumulator-table__dot accumulator-table__dot--w"
+                        ></span>
+                        <span
+                          class="accumulator-table__dot accumulator-table__dot--d"
+                        ></span>
+                        <span
+                          class="accumulator-table__dot accumulator-table__dot--l"
+                        ></span>
+                      </div>
+                    </div>
+                  </div>
+                  <span class="accumulator-table__vs">VS</span>
+                  <div class="accumulator-table__team">
+                    <img
+                      src="assets/img/icons/pfc.png"
+                      alt="Paris FC"
+                      class="accumulator-table__team-logo"
+                    />
+                    <div class="accumulator-table__team-info">
+                      <span class="accumulator-table__team-name">Paris FC</span>
+                      <div
+                        class="accumulator-table__form-dots"
+                        aria-hidden="true"
+                      >
+                        <span
+                          class="accumulator-table__dot accumulator-table__dot--w"
+                        ></span>
+                        <span
+                          class="accumulator-table__dot accumulator-table__dot--w"
+                        ></span>
+                        <span
+                          class="accumulator-table__dot accumulator-table__dot--d"
+                        ></span>
+                        <span
+                          class="accumulator-table__dot accumulator-table__dot--d"
+                        ></span>
+                        <span
+                          class="accumulator-table__dot accumulator-table__dot--w"
+                        ></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="accumulator-table__cell accumulator-table__cell--odds"
+              >
+                <div
+                  class="accumulator-table__tip-card accumulator-table__tip-card--main"
+                >
+                  <div class="accumulator-table__tip-top">
+                    <span class="accumulator-table__tip-outcome">x</span>
+                    <span class="accumulator-table__tip-odds">3.50</span>
+                  </div>
+                  <div class="accumulator-table__tip-bottom">
+                    <span class="accumulator-table__tip-pct">65%</span>
+                    <span class="accumulator-table__tip-fp">FP Tip</span>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="accumulator-table__cell accumulator-table__cell--other"
+              >
+                <div class="accumulator-table__other-cards">
+                  <div
+                    class="accumulator-table__tip-card accumulator-table__tip-card--alt"
+                  >
+                    <span class="accumulator-table__tip-outcome">1</span>
+                    <span class="accumulator-table__tip-odds">3.20</span>
+                    <span class="accumulator-table__tip-pct">28%</span>
+                  </div>
+                  <div
+                    class="accumulator-table__tip-card accumulator-table__tip-card--alt"
+                  >
+                    <span class="accumulator-table__tip-outcome">2</span>
+                    <span class="accumulator-table__tip-odds">2.10</span>
+                    <span class="accumulator-table__tip-pct">7%</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Row 3 -->
+            <div class="accumulator-table__row">
+              <div
+                class="accumulator-table__cell accumulator-table__cell--logo"
+              >
+                <img
+                  class="accumulator-table__logo"
+                  src="assets/img/icons/fbet.png"
+                  alt="Image"
+                />
+              </div>
+              <div
+                class="accumulator-table__cell accumulator-table__cell--league"
+              >
+                <span class="accumulator-table__league-name"
+                  >Champions League, Gro.</span
+                >
+              </div>
+              <div
+                class="accumulator-table__cell accumulator-table__cell--date"
+              >
+                <span class="accumulator-table__date">31.10.2025</span>
+                <span class="accumulator-table__time">02:30 PM</span>
+              </div>
+              <div
+                class="accumulator-table__cell accumulator-table__cell--teams"
+              >
+                <span class="accumulator-table__league" aria-hidden="true"
+                  >Champions League, Gro.</span
+                >
+                <div class="accumulator-table__fixture">
+                  <div class="accumulator-table__team">
+                    <img
+                      src="assets/img/icons/fcl.png"
+                      alt="FC Lorient"
+                      class="accumulator-table__team-logo"
+                    />
+                    <div class="accumulator-table__team-info">
+                      <span class="accumulator-table__team-name"
+                        >FC Lorient</span
+                      >
+                      <div
+                        class="accumulator-table__form-dots"
+                        aria-hidden="true"
+                      >
+                        <span
+                          class="accumulator-table__dot accumulator-table__dot--w"
+                        ></span>
+                        <span
+                          class="accumulator-table__dot accumulator-table__dot--w"
+                        ></span>
+                        <span
+                          class="accumulator-table__dot accumulator-table__dot--w"
+                        ></span>
+                        <span
+                          class="accumulator-table__dot accumulator-table__dot--w"
+                        ></span>
+                        <span
+                          class="accumulator-table__dot accumulator-table__dot--w"
+                        ></span>
+                      </div>
+                    </div>
+                  </div>
+                  <span class="accumulator-table__vs">VS</span>
+                  <div class="accumulator-table__team">
+                    <img
+                      src="assets/img/icons/pfc.png"
+                      alt="Paris FC"
+                      class="accumulator-table__team-logo"
+                    />
+                    <div class="accumulator-table__team-info">
+                      <span class="accumulator-table__team-name">Paris FC</span>
+                      <div
+                        class="accumulator-table__form-dots"
+                        aria-hidden="true"
+                      >
+                        <span
+                          class="accumulator-table__dot accumulator-table__dot--l"
+                        ></span>
+                        <span
+                          class="accumulator-table__dot accumulator-table__dot--w"
+                        ></span>
+                        <span
+                          class="accumulator-table__dot accumulator-table__dot--w"
+                        ></span>
+                        <span
+                          class="accumulator-table__dot accumulator-table__dot--d"
+                        ></span>
+                        <span
+                          class="accumulator-table__dot accumulator-table__dot--w"
+                        ></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="accumulator-table__cell accumulator-table__cell--odds"
+              >
+                <div
+                  class="accumulator-table__tip-card accumulator-table__tip-card--main"
+                >
+                  <div class="accumulator-table__tip-top">
+                    <span class="accumulator-table__tip-outcome">2</span>
+                    <span class="accumulator-table__tip-odds">2.55</span>
+                  </div>
+                  <div class="accumulator-table__tip-bottom">
+                    <span class="accumulator-table__tip-pct">43%</span>
+                    <span class="accumulator-table__tip-fp">FP Tip</span>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="accumulator-table__cell accumulator-table__cell--other"
+              >
+                <div class="accumulator-table__other-cards">
+                  <div
+                    class="accumulator-table__tip-card accumulator-table__tip-card--alt"
+                  >
+                    <span class="accumulator-table__tip-outcome">1</span>
+                    <span class="accumulator-table__tip-odds">2.80</span>
+                    <span class="accumulator-table__tip-pct">32%</span>
+                  </div>
+                  <div
+                    class="accumulator-table__tip-card accumulator-table__tip-card--alt"
+                  >
+                    <span class="accumulator-table__tip-outcome">x</span>
+                    <span class="accumulator-table__tip-odds">3.40</span>
+                    <span class="accumulator-table__tip-pct">25%</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Row 1 -->
+            <div class="accumulator-table__row">
+              <div
+                class="accumulator-table__cell accumulator-table__cell--logo"
+              >
+                <img
+                  class="accumulator-table__logo"
+                  src="assets/img/icons/fbet.png"
+                  alt="Image"
+                />
+              </div>
+              <div
+                class="accumulator-table__cell accumulator-table__cell--league"
+              >
+                <span class="accumulator-table__league-name"
+                  >Champions League, Gro.</span
+                >
+              </div>
+              <div
+                class="accumulator-table__cell accumulator-table__cell--date"
+              >
+                <span class="accumulator-table__date">30.10.2025</span>
+                <span class="accumulator-table__time">05:00 PM</span>
+              </div>
+              <div
+                class="accumulator-table__cell accumulator-table__cell--teams"
+              >
+                <span class="accumulator-table__league" aria-hidden="true"
+                  >Champions League, Gro.</span
+                >
+                <div class="accumulator-table__fixture">
+                  <div class="accumulator-table__team">
+                    <img
+                      src="assets/img/icons/fcl.png"
+                      alt="FC Lorient"
+                      class="accumulator-table__team-logo"
+                    />
+                    <div class="accumulator-table__team-info">
+                      <span class="accumulator-table__team-name"
+                        >FC Lorient</span
+                      >
+                      <div
+                        class="accumulator-table__form-dots"
+                        aria-hidden="true"
+                      >
+                        <span
+                          class="accumulator-table__dot accumulator-table__dot--w"
+                        ></span>
+                        <span
+                          class="accumulator-table__dot accumulator-table__dot--w"
+                        ></span>
+                        <span
+                          class="accumulator-table__dot accumulator-table__dot--w"
+                        ></span>
+                        <span
+                          class="accumulator-table__dot accumulator-table__dot--w"
+                        ></span>
+                        <span
+                          class="accumulator-table__dot accumulator-table__dot--d"
+                        ></span>
+                      </div>
+                    </div>
+                  </div>
+                  <span class="accumulator-table__vs">VS</span>
+                  <div class="accumulator-table__team">
+                    <img
+                      src="assets/img/icons/pfc.png"
+                      alt="Paris FC"
+                      class="accumulator-table__team-logo"
+                    />
+                    <div class="accumulator-table__team-info">
+                      <span class="accumulator-table__team-name">Paris FC</span>
+                      <div
+                        class="accumulator-table__form-dots"
+                        aria-hidden="true"
+                      >
+                        <span
+                          class="accumulator-table__dot accumulator-table__dot--w"
+                        ></span>
+                        <span
+                          class="accumulator-table__dot accumulator-table__dot--w"
+                        ></span>
+                        <span
+                          class="accumulator-table__dot accumulator-table__dot--w"
+                        ></span>
+                        <span
+                          class="accumulator-table__dot accumulator-table__dot--w"
+                        ></span>
+                        <span
+                          class="accumulator-table__dot accumulator-table__dot--w"
+                        ></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="accumulator-table__cell accumulator-table__cell--odds"
+              >
+                <div
+                  class="accumulator-table__tip-card accumulator-table__tip-card--main"
+                >
+                  <div class="accumulator-table__tip-top">
+                    <div class="accumulator-table__tip-outcome">1</div>
+                    <div class="accumulator-table__tip-odds">4.00</div>
+                  </div>
+                  <div class="accumulator-table__tip-bottom">
+                    <div class="accumulator-table__tip-pct">73%</div>
+                    <div class="accumulator-table__tip-fp">FP Tip</div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="accumulator-table__cell accumulator-table__cell--other"
+              >
+                <div class="accumulator-table__other-cards">
+                  <div
+                    class="accumulator-table__tip-card accumulator-table__tip-card--alt"
+                  >
+                    <div class="accumulator-table__tip-outcome">x</div>
+                    <div class="accumulator-table__tip-odds">4.00</div>
+                    <div class="accumulator-table__tip-pct">13%</div>
+                  </div>
+                  <div
+                    class="accumulator-table__tip-card accumulator-table__tip-card--alt"
+                  >
+                    <div class="accumulator-table__tip-outcome">2</div>
+                    <div class="accumulator-table__tip-odds">4.33</div>
+                    <div class="accumulator-table__tip-pct">13%</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Row 2 -->
+            <div class="accumulator-table__row">
+              <div
+                class="accumulator-table__cell accumulator-table__cell--logo"
+              >
+                <img
+                  class="accumulator-table__logo"
+                  src="assets/img/icons/fbet.png"
+                  alt="Image"
+                />
+              </div>
+              <div
+                class="accumulator-table__cell accumulator-table__cell--league"
+              >
+                <span class="accumulator-table__league-name"
+                  >Champions League, Gro.</span
+                >
+              </div>
+              <div
+                class="accumulator-table__cell accumulator-table__cell--date"
+              >
+                <span class="accumulator-table__date">30.10.2025</span>
+                <span class="accumulator-table__time">05:00 PM</span>
+              </div>
+              <div
+                class="accumulator-table__cell accumulator-table__cell--teams"
+              >
+                <span class="accumulator-table__league" aria-hidden="true"
+                  >Champions League, Gro.</span
+                >
+                <div class="accumulator-table__fixture">
+                  <div class="accumulator-table__team">
+                    <img
+                      src="assets/img/icons/fcl.png"
+                      alt="FC Lorient"
+                      class="accumulator-table__team-logo"
+                    />
+                    <div class="accumulator-table__team-info">
+                      <span class="accumulator-table__team-name"
+                        >FC Lorient</span
+                      >
+                      <div
+                        class="accumulator-table__form-dots"
+                        aria-hidden="true"
+                      >
+                        <span
+                          class="accumulator-table__dot accumulator-table__dot--w"
+                        ></span>
+                        <span
+                          class="accumulator-table__dot accumulator-table__dot--w"
+                        ></span>
+                        <span
+                          class="accumulator-table__dot accumulator-table__dot--w"
+                        ></span>
+                        <span
+                          class="accumulator-table__dot accumulator-table__dot--d"
+                        ></span>
+                        <span
+                          class="accumulator-table__dot accumulator-table__dot--l"
+                        ></span>
+                      </div>
+                    </div>
+                  </div>
+                  <span class="accumulator-table__vs">VS</span>
+                  <div class="accumulator-table__team">
+                    <img
+                      src="assets/img/icons/pfc.png"
+                      alt="Paris FC"
+                      class="accumulator-table__team-logo"
+                    />
+                    <div class="accumulator-table__team-info">
+                      <span class="accumulator-table__team-name">Paris FC</span>
+                      <div
+                        class="accumulator-table__form-dots"
+                        aria-hidden="true"
+                      >
+                        <span
+                          class="accumulator-table__dot accumulator-table__dot--w"
+                        ></span>
+                        <span
+                          class="accumulator-table__dot accumulator-table__dot--w"
+                        ></span>
+                        <span
+                          class="accumulator-table__dot accumulator-table__dot--d"
+                        ></span>
+                        <span
+                          class="accumulator-table__dot accumulator-table__dot--d"
+                        ></span>
+                        <span
+                          class="accumulator-table__dot accumulator-table__dot--w"
+                        ></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="accumulator-table__cell accumulator-table__cell--odds"
+              >
+                <div
+                  class="accumulator-table__tip-card accumulator-table__tip-card--main"
+                >
+                  <div class="accumulator-table__tip-top">
+                    <span class="accumulator-table__tip-outcome">x</span>
+                    <span class="accumulator-table__tip-odds">3.50</span>
+                  </div>
+                  <div class="accumulator-table__tip-bottom">
+                    <span class="accumulator-table__tip-pct">65%</span>
+                    <span class="accumulator-table__tip-fp">FP Tip</span>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="accumulator-table__cell accumulator-table__cell--other"
+              >
+                <div class="accumulator-table__other-cards">
+                  <div
+                    class="accumulator-table__tip-card accumulator-table__tip-card--alt"
+                  >
+                    <span class="accumulator-table__tip-outcome">1</span>
+                    <span class="accumulator-table__tip-odds">3.20</span>
+                    <span class="accumulator-table__tip-pct">28%</span>
+                  </div>
+                  <div
+                    class="accumulator-table__tip-card accumulator-table__tip-card--alt"
+                  >
+                    <span class="accumulator-table__tip-outcome">2</span>
+                    <span class="accumulator-table__tip-odds">2.10</span>
+                    <span class="accumulator-table__tip-pct">7%</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Row 3 -->
+            <div class="accumulator-table__row">
+              <div
+                class="accumulator-table__cell accumulator-table__cell--logo"
+              >
+                <img
+                  class="accumulator-table__logo"
+                  src="assets/img/icons/fbet.png"
+                  alt="Image"
+                />
+              </div>
+              <div
+                class="accumulator-table__cell accumulator-table__cell--league"
+              >
+                <span class="accumulator-table__league-name"
+                  >Champions League, Gro.</span
+                >
+              </div>
+              <div
+                class="accumulator-table__cell accumulator-table__cell--date"
+              >
+                <span class="accumulator-table__date">31.10.2025</span>
+                <span class="accumulator-table__time">02:30 PM</span>
+              </div>
+              <div
+                class="accumulator-table__cell accumulator-table__cell--teams"
+              >
+                <span class="accumulator-table__league" aria-hidden="true"
+                  >Champions League, Gro.</span
+                >
+                <div class="accumulator-table__fixture">
+                  <div class="accumulator-table__team">
+                    <img
+                      src="assets/img/icons/fcl.png"
+                      alt="FC Lorient"
+                      class="accumulator-table__team-logo"
+                    />
+                    <div class="accumulator-table__team-info">
+                      <span class="accumulator-table__team-name"
+                        >FC Lorient</span
+                      >
+                      <div
+                        class="accumulator-table__form-dots"
+                        aria-hidden="true"
+                      >
+                        <span
+                          class="accumulator-table__dot accumulator-table__dot--w"
+                        ></span>
+                        <span
+                          class="accumulator-table__dot accumulator-table__dot--w"
+                        ></span>
+                        <span
+                          class="accumulator-table__dot accumulator-table__dot--w"
+                        ></span>
+                        <span
+                          class="accumulator-table__dot accumulator-table__dot--w"
+                        ></span>
+                        <span
+                          class="accumulator-table__dot accumulator-table__dot--w"
+                        ></span>
+                      </div>
+                    </div>
+                  </div>
+                  <span class="accumulator-table__vs">VS</span>
+                  <div class="accumulator-table__team">
+                    <img
+                      src="assets/img/icons/pfc.png"
+                      alt="Paris FC"
+                      class="accumulator-table__team-logo"
+                    />
+                    <div class="accumulator-table__team-info">
+                      <span class="accumulator-table__team-name">Paris FC</span>
+                      <div
+                        class="accumulator-table__form-dots"
+                        aria-hidden="true"
+                      >
+                        <span
+                          class="accumulator-table__dot accumulator-table__dot--l"
+                        ></span>
+                        <span
+                          class="accumulator-table__dot accumulator-table__dot--w"
+                        ></span>
+                        <span
+                          class="accumulator-table__dot accumulator-table__dot--w"
+                        ></span>
+                        <span
+                          class="accumulator-table__dot accumulator-table__dot--d"
+                        ></span>
+                        <span
+                          class="accumulator-table__dot accumulator-table__dot--w"
+                        ></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="accumulator-table__cell accumulator-table__cell--odds"
+              >
+                <div
+                  class="accumulator-table__tip-card accumulator-table__tip-card--main"
+                >
+                  <div class="accumulator-table__tip-top">
+                    <span class="accumulator-table__tip-outcome">2</span>
+                    <span class="accumulator-table__tip-odds">2.55</span>
+                  </div>
+                  <div class="accumulator-table__tip-bottom">
+                    <span class="accumulator-table__tip-pct">43%</span>
+                    <span class="accumulator-table__tip-fp">FP Tip</span>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="accumulator-table__cell accumulator-table__cell--other"
+              >
+                <div class="accumulator-table__other-cards">
+                  <div
+                    class="accumulator-table__tip-card accumulator-table__tip-card--alt"
+                  >
+                    <span class="accumulator-table__tip-outcome">1</span>
+                    <span class="accumulator-table__tip-odds">2.80</span>
+                    <span class="accumulator-table__tip-pct">32%</span>
+                  </div>
+                  <div
+                    class="accumulator-table__tip-card accumulator-table__tip-card--alt"
+                  >
+                    <span class="accumulator-table__tip-outcome">x</span>
+                    <span class="accumulator-table__tip-odds">3.40</span>
+                    <span class="accumulator-table__tip-pct">25%</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="betting-news">
+  <div class="betting-news__box">
+    <div class="betting-news__header">
+      <h2 class="betting-news__title">Trending News</h2>
+      <div class="betting-news__indicators" aria-hidden="true">
+        <span
+          class="betting-news__indicator betting-news__indicator--active"
+        ></span>
+        <span
+          class="betting-news__indicator betting-news__indicator--active"
+        ></span>
+        <span class="betting-news__indicator"></span>
+      </div>
+    </div>
+    <a href="#" class="betting-news__hero-link">
+      <div class="betting-news__hero">
+        <img
+          src="assets/img/betting-news-large.png"
+          alt="Exclusive free bets and predictions"
+          class="betting-news__hero-img"
+        />
+      </div>
+      <article class="betting-news__article">
+        <div class="betting-news__article-head">
+          <h3 class="betting-news__article-title">
+            Results and scores from the Premier League....!!
+          </h3>
+          <span class="betting-news__tag">Tips</span>
+        </div>
+        <p class="betting-news__article-snippet">
+          Il est frais et découvre la Ligue 2 cette saison, pourtant il est déjà
+          meilleurll est frais et découvre la Ligue 2 cette saison, pourtant il
+          est déjà meilleur Il est frais et découvre la Li..
+        </p>
+        <time class="betting-news__article-time">5 Hours Ago</time>
+      </article>
+    </a>
+    <div class="betting-news__list">
+      <a href="#" class="betting-news__card">
+        <div class="betting-news__card-img-wrap">
+          <img
+            src="assets/img/betting-news-small.png"
+            alt="Betting Tips"
+            class="betting-news__card-img"
+          />
+          <span class="betting-news__card-tag">Betting Tips</span>
+        </div>
+        <div class="betting-news__card-content">
+          <div class="betting-news__card-head">
+            <h4 class="betting-news__card-title">
+              A rising star in the Bundesliga, he's tu.
+            </h4>
+            <span class="betting-news__tag">Tips</span>
+          </div>
+          <p class="betting-news__card-desc">
+            His technique and agility have made him one of the best young
+            players, attracting the attention of top clubs.
+          </p>
+          <time class="betting-news__card-date">13 Oct 2023, 03:45 PM</time>
+        </div>
+      </a>
+      <a href="#" class="betting-news__card">
+        <div class="betting-news__card-img-wrap">
+          <img
+            src="assets/img/betting-news-small.png"
+            alt="Betting Tips"
+            class="betting-news__card-img"
+          />
+          <span class="betting-news__card-tag">Betting Tips</span>
+        </div>
+        <div class="betting-news__card-content">
+          <div class="betting-news__card-head">
+            <h4 class="betting-news__card-title">
+              A rising star in the Bundesliga, he's tu.
+            </h4>
+            <span class="betting-news__tag">Tips</span>
+          </div>
+          <p class="betting-news__card-desc">
+            His technique and agility have made him one of the best young
+            players, attracting the attention of top clubs.
+          </p>
+          <time class="betting-news__card-date">13 Oct 2023, 03:45 PM</time>
+        </div>
+      </a>
+      <a href="#" class="betting-news__card">
+        <div class="betting-news__card-img-wrap">
+          <img
+            src="assets/img/betting-news-small.png"
+            alt="Betting Tips"
+            class="betting-news__card-img"
+          />
+          <span class="betting-news__card-tag">Betting Tips</span>
+        </div>
+        <div class="betting-news__card-content">
+          <div class="betting-news__card-head">
+            <h4 class="betting-news__card-title">
+              A rising star in the Bundesliga, he's tu.
+            </h4>
+            <span class="betting-news__tag">Tips</span>
+          </div>
+          <p class="betting-news__card-desc">
+            His technique and agility have made him one of the best young
+            players, attracting the attention of top clubs.
+          </p>
+          <time class="betting-news__card-date">13 Oct 2023, 03:45 PM</time>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+
+  </div>
+</section>
+
+      <section class="claim-bonus-videos">
+  <div class="container claim-bonus-videos__inner">
+    <!-- Left: slider card -->
+    <div class="claim-bonus-videos__card-wrap">
+      <div class="claim-bonus-videos__slider">
+        <div class="claim-bonus-videos__slider-track" aria-live="polite">
+          <article class="claim-bonus-videos__card">
+            <img
+              src="assets/img/promo-bg-1.png"
+              alt="Image"
+              class="claim-bonus-videos__card-bg"
+            />
+            <div class="claim-bonus-videos__card-content">
+              <div class="claim-bonus-videos__gift-wrap" aria-hidden="true">
+                <img
+                  src="assets/img/promo-img.png"
+                  alt=""
+                  class="claim-bonus-videos__gift-img"
+                />
+              </div>
+              <div class="claim-bonus-videos__card-body">
+                <h2 class="claim-bonus-videos__headline">
+                  Claim Over
+                  <span class="claim-bonus-videos__headline-accent">$500</span>
+                  in Free Bets
+                </h2>
+
+                <ul class="claim-bonus-videos__list">
+                  <li class="claim-bonus-videos__list-item">
+                    <img src="assets/img/svg/trust.svg" alt="Check" />
+                    Trusted and Secure
+                  </li>
+                  <li class="claim-bonus-videos__list-item">
+                    <img src="assets/img/svg/license.svg" alt="Check" />
+                    Fully Licensed Betting Sites
+                  </li>
+                  <li class="claim-bonus-videos__list-item">
+                    <img src="assets/img/svg/bonus.svg" alt="Check" />
+                    Exclusive Bonus Offers
+                  </li>
+                </ul>
+              </div>
+              <a href="#bonus" class="claim-bonus-videos__btn claim-bonus-videos__btn--green">
+                <img src="assets/img/svg/bonus.svg" alt="Check" />
+                Exclusive Bonus Offers
+              </a>
+            </div>
+          </article>
+          <article class="claim-bonus-videos__card claim-bonus-videos__card">
+            <img
+              src="assets/img/promo-bg-2.png"
+              alt="Image"
+              class="claim-bonus-videos__card-bg"
+            />
+            <div class="claim-bonus-videos__card-content">
+              <div class="claim-bonus-videos__gift-wrap" aria-hidden="true">
+                <img
+                  src="assets/img/promo-img.png"
+                  alt=""
+                  class="claim-bonus-videos__gift-img"
+                />
+              </div>
+              <div class="claim-bonus-videos__card-body">
+                <h2 class="claim-bonus-videos__headline">
+                  Claim Over
+                  <span class="claim-bonus-videos__headline-accent">$500</span>
+                  in Free Bets
+                </h2>
+
+                <ul class="claim-bonus-videos__list">
+                  <li class="claim-bonus-videos__list-item">
+                    <img src="assets/img/svg/trust.svg" alt="Check" />
+                    Trusted and Secure
+                  </li>
+                  <li class="claim-bonus-videos__list-item">
+                    <img src="assets/img/svg/license.svg" alt="Check" />
+                    Fully Licensed Betting Sites
+                  </li>
+                  <li class="claim-bonus-videos__list-item">
+                    <img src="assets/img/svg/bonus.svg" alt="Check" />
+                    Exclusive Bonus Offers
+                  </li>
+                </ul>
+              </div>
+              <a href="#bonus" class="claim-bonus-videos__btn claim-bonus-videos__btn--orange">
+                <img src="assets/img/svg/bonus.svg" alt="Check" />
+                Exclusive Bonus Offers
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+      <button
+        type="button"
+        class="claim-bonus-videos__arrow claim-bonus-videos__arrow--prev"
+        aria-label="Previous slide"
+      >
+        <img
+          src="assets/img/svg/chevron-left.svg"
+          alt=""
+          class="claim-bonus-videos__arrow-img"
+        />
+      </button>
+      <button
+        type="button"
+        class="claim-bonus-videos__arrow claim-bonus-videos__arrow--next"
+        aria-label="Next slide"
+      >
+        <img
+          src="assets/img/svg/chevron-left.svg"
+          alt=""
+          class="claim-bonus-videos__arrow-img"
+        />
+      </button>
+    </div>
+
+    <!-- Right: Popular Videos -->
+    <div class="claim-bonus-videos__videos">
+      <div class="claim-bonus-videos__videos-box">
+        <div class="claim-bonus-videos__videos-header">
+          <h2 class="claim-bonus-videos__videos-title">Popular Videos</h2>
+          <div class="claim-bonus-videos__videos-indicators" aria-hidden="true">
+            <span
+              class="claim-bonus-videos__videos-indicator claim-bonus-videos__videos-indicator--active"
+            ></span>
+            <span class="claim-bonus-videos__videos-indicator"></span>
+            <span class="claim-bonus-videos__videos-indicator"></span>
+          </div>
+        </div>
+        <div class="claim-bonus-videos__videos-list">
+          <a href="#" class="claim-bonus-videos__video-card">
+            <div class="claim-bonus-videos__video-thumb">
+              <img
+                src="assets/img/video-pre-1.png"
+                alt=""
+                class="claim-bonus-videos__video-img"
+              />
+              <span
+                class="claim-bonus-videos__video-play"
+                aria-hidden="true"
+              ></span>
+            </div>
+            <div class="claim-bonus-videos__video-content">
+              <div class="claim-bonus-videos__video-head">
+                <h3 class="claim-bonus-videos__video-title">
+                  Argentina's Massive Talent Pool | Off...
+                </h3>
+                <span class="claim-bonus-videos__video-tag">Argentina</span>
+              </div>
+              <p class="claim-bonus-videos__video-desc">
+                His technique and agility have made him one of the best young
+                players, attracting the attention of top clubs.
+              </p>
+              <time class="claim-bonus-videos__video-date"
+                >13 Oct 2023, 03:45 PM</time
+              >
+            </div>
+          </a>
+          <a href="#" class="claim-bonus-videos__video-card">
+            <div class="claim-bonus-videos__video-thumb">
+              <img
+                src="assets/img/video-pre-2.png"
+                alt=""
+                class="claim-bonus-videos__video-img"
+              />
+              <span
+                class="claim-bonus-videos__video-play"
+                aria-hidden="true"
+              ></span>
+            </div>
+            <div class="claim-bonus-videos__video-content">
+              <div class="claim-bonus-videos__video-head">
+                <h3 class="claim-bonus-videos__video-title">
+                  A rising star in the Bundesliga, he's tu.
+                </h3>
+                <span class="claim-bonus-videos__video-tag">Tips</span>
+              </div>
+              <p class="claim-bonus-videos__video-desc">
+                His technique and agility have made him one of the best young
+                players, attracting the attention of top clubs.
+              </p>
+              <time class="claim-bonus-videos__video-date"
+                >13 Oct 2023, 03:45 PM</time
+              >
+            </div>
+          </a>
+          <a href="#" class="claim-bonus-videos__video-card">
+            <div class="claim-bonus-videos__video-thumb">
+              <img
+                src="assets/img/video-pre-3.png"
+                alt=""
+                class="claim-bonus-videos__video-img"
+              />
+              <span
+                class="claim-bonus-videos__video-play"
+                aria-hidden="true"
+              ></span>
+            </div>
+            <div class="claim-bonus-videos__video-content">
+              <div class="claim-bonus-videos__video-head">
+                <h3 class="claim-bonus-videos__video-title">
+                  VAR decisions that changed the game.
+                </h3>
+                <span class="claim-bonus-videos__video-tag">VAR</span>
+              </div>
+              <p class="claim-bonus-videos__video-desc">
+                His technique and agility have made him one of the best young
+                players, attracting the attention of top clubs.
+              </p>
+              <time class="claim-bonus-videos__video-date"
+                >13 Oct 2023, 03:45 PM</time
+              >
+            </div>
+          </a>
+          <a href="#" class="claim-bonus-videos__video-card">
+            <div class="claim-bonus-videos__video-thumb">
+              <img
+                src="assets/img/video-pre-4.png"
+                alt=""
+                class="claim-bonus-videos__video-img"
+              />
+              <span
+                class="claim-bonus-videos__video-play"
+                aria-hidden="true"
+              ></span>
+            </div>
+            <div class="claim-bonus-videos__video-content">
+              <div class="claim-bonus-videos__video-head">
+                <h3 class="claim-bonus-videos__video-title">
+                  Argentina's Massive Talent Pool | Off...
+                </h3>
+                <span class="claim-bonus-videos__video-tag">Argentina</span>
+              </div>
+              <p class="claim-bonus-videos__video-desc">
+                His technique and agility have made him one of the best young
+                players, attracting the attention of top clubs.
+              </p>
+              <time class="claim-bonus-videos__video-date"
+                >13 Oct 2023, 03:45 PM</time
+              >
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="latest-football-news">
+  <div class="container latest-football-news__container">
+    <div class="latest-football-news__section-header">
+      <h2 class="latest-football-news__section-title">Latest Football News</h2>
+      <a href="#" class="latest-football-news__see-all">see all</a>
+    </div>
+
+    <div class="latest-football-news__inner">
+      <!-- Left: large cards -->
+      <div class="latest-football-news__large">
+        <div class="latest-football-news__large-grid">
+          <a href="#" class="latest-football-news__big-card">
+            <div class="latest-football-news__big-img-wrap">
+              <img
+                src="assets/img/news-1.png"
+                alt=""
+                class="latest-football-news__big-img"
+              />
+              <span class="latest-football-news__big-badge">HIGHLIGHTS</span>
+            </div>
+            <div class="latest-football-news__big-body">
+              <div class="latest-football-news__big-meta">
+                <span class="latest-football-news__author">
+                  <img
+                    src="assets/img/news-author-aoi.png"
+                    alt=""
+                    class="latest-football-news__author-icon"
+                  />
+                  Aoi Kaneko
+                  <span class="latest-football-news__author-role"
+                    >Journalist</span
+                  >
+                </span>
+                <span class="latest-football-news__tag">Champions League</span>
+              </div>
+              <h3 class="latest-football-news__big-title">
+                Montpellier officiellement relégué en Ligue 2 si...
+              </h3>
+              <p class="latest-football-news__big-snippet">
+                Alors qu'il ne reste que 5 journées à jouer pour clore cette
+                saison 2024-2025 de Ligue 1, Montpellier s'apprête à boucler
+                un...
+              </p>
+              <time class="latest-football-news__big-date"
+                >13 Oct 2023, 03:45 PM</time
+              >
+            </div>
+          </a>
+          <a href="#" class="latest-football-news__big-card">
+            <div class="latest-football-news__big-img-wrap">
+              <img
+                src="assets/img/news-1.png"
+                alt=""
+                class="latest-football-news__big-img"
+              />
+              <span class="latest-football-news__big-badge">HIGHLIGHTS</span>
+            </div>
+            <div class="latest-football-news__big-body">
+              <div class="latest-football-news__big-meta">
+                <span class="latest-football-news__author">
+                  <img
+                    src="assets/img/news-author-aoi.png"
+                    alt=""
+                    class="latest-football-news__author-icon"
+                  />
+                  Aoi Kaneko
+                  <span class="latest-football-news__author-role"
+                    >Journalist</span
+                  >
+                </span>
+                <span class="latest-football-news__tag">Champions League</span>
+              </div>
+              <h3 class="latest-football-news__big-title">
+                Montpellier officiellement relégué en Ligue 2 si...
+              </h3>
+              <p class="latest-football-news__big-snippet">
+                Alors qu'il ne reste que 5 journées à jouer pour clore cette
+                saison 2024-2025 de Ligue 1, Montpellier s'apprête à boucler
+                un...
+              </p>
+              <time class="latest-football-news__big-date"
+                >13 Oct 2023, 03:45 PM</time
+              >
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <!-- Right: small cards list -->
+      <div class="latest-football-news__small">
+        <div class="latest-football-news__box">
+          <div class="latest-football-news__list">
+            <a href="#" class="latest-football-news__item">
+              <div class="latest-football-news__item-thumb">
+                <img
+                  src="assets/img/news-2.png"
+                  alt=""
+                  class="latest-football-news__item-img"
+                />
+              </div>
+              <div class="latest-football-news__item-content">
+                <div class="latest-football-news__item-head">
+                  <h4 class="latest-football-news__item-title">
+                    A rising star in the Bundesliga, he's tu.
+                  </h4>
+                  <span class="latest-football-news__tag">Juventus</span>
+                </div>
+                <p class="latest-football-news__item-desc">
+                  His technique and agility have made him one of the best young
+                  players, attracting the attention of top clubs.
+                </p>
+                <time class="latest-football-news__item-date"
+                  >13 Oct 2023, 03:45 PM</time
+                >
+              </div>
+            </a>
+            <a href="#" class="latest-football-news__item">
+              <div class="latest-football-news__item-thumb">
+                <img
+                  src="assets/img/news-3.png"
+                  alt=""
+                  class="latest-football-news__item-img"
+                />
+              </div>
+              <div class="latest-football-news__item-content">
+                <div class="latest-football-news__item-head">
+                  <h4 class="latest-football-news__item-title">
+                    A promising talent in La Liga, he's quic.
+                  </h4>
+                  <span class="latest-football-news__tag">Barcelona</span>
+                </div>
+                <p class="latest-football-news__item-desc">
+                  His technique and agility have made him one of the best young
+                  players, attracting the attention of top clubs.
+                </p>
+                <time class="latest-football-news__item-date"
+                  >13 Oct 2023, 03:45 PM</time
+                >
+              </div>
+            </a>
+            <a href="#" class="latest-football-news__item">
+              <div class="latest-football-news__item-thumb">
+                <img
+                  src="assets/img/news-4.png"
+                  alt=""
+                  class="latest-football-news__item-img"
+                />
+              </div>
+              <div class="latest-football-news__item-content">
+                <div class="latest-football-news__item-head">
+                  <h4 class="latest-football-news__item-title">
+                    A rising star in the Bundesliga, he's tu.
+                  </h4>
+                  <span class="latest-football-news__tag">Chelsea</span>
+                </div>
+                <p class="latest-football-news__item-desc">
+                  His technique and agility have made him one of the best young
+                  players, attracting the attention of top clubs.
+                </p>
+                <time class="latest-football-news__item-date"
+                  >13 Oct 2023, 03:45 PM</time
+                >
+              </div>
+            </a>
+            <a href="#" class="latest-football-news__item">
+              <div class="latest-football-news__item-thumb">
+                <img
+                  src="assets/img/news-2.png"
+                  alt=""
+                  class="latest-football-news__item-img"
+                />
+              </div>
+              <div class="latest-football-news__item-content">
+                <div class="latest-football-news__item-head">
+                  <h4 class="latest-football-news__item-title">
+                    A rising star in the Bundesliga, he's tu.
+                  </h4>
+                  <span class="latest-football-news__tag">AC Milan</span>
+                </div>
+                <p class="latest-football-news__item-desc">
+                  His technique and agility have made him one of the best young
+                  players, attracting the attention of top clubs.
+                </p>
+                <time class="latest-football-news__item-date"
+                  >13 Oct 2023, 03:45 PM</time
+                >
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="trust-tips-faq">
+  <div class="container trust-tips-faq__inner">
+    <!-- Left: Football Predictions and Tips You Can Trust -->
+    <div class="trust-tips-faq__block trust-tips-faq__block--text">
+      <div class="trust-tips-faq__header">
+        <h2 class="trust-tips-faq__title">
+          Football Predictions and Tips You Can Trust
+        </h2>
+      </div>
+      <div class="trust-tips-faq__content">
+        <p>
+          Our site is truly unique. We have a team of dedicated,
+          football-obsessed writers and journalists who keep you up to date with
+          the most important trending topics in the football world, including
+          <a href="#">football live scores</a>. In addition, our in-house
+          experts, who are former Football League scouts, are here to guide you
+          through every step of your betting strategy. They know exactly what
+          they’re talking about.
+        </p>
+
+        <p>
+          We are active on all social media platforms, supplying engaging
+          content on <a href="#">X</a>, <a href="#">Instagram</a>,
+          <a href="#">TikTok</a> and more, and we offer a host of content,
+          including <a href="#">videos</a>, <a href="#">blogs</a>,
+          <a href="#">news</a> and <a href="#">graphics</a>. Our website allows
+          you to find the
+          <a href="#">best sign-up offers to bookmakers globally</a>, and
+          provides a simple route to finding the best betting tips today and
+          value tips every week.
+        </p>
+
+        <p>
+          Most importantly, Football Park was created by football people. Our
+          team has decades of combined experience in the industry - whether it
+          be in scouting, media, or data, and their number one priority is to
+          bring you the best possible football experience.
+        </p>
+        <p>
+          Explore our brand new <a href="#">Football Quizzes</a> and the
+          exciting Football Wordle game. Perfect for fans who love a challenge!
+          Whether you’re a seasoned supporter or a casual viewer, these quizzes
+          are a fun way to test your football knowledge daily, and compete with
+          friends.
+        </p>
+      </div>
+    </div>
+
+    <!-- Right: Football FAQ -->
+    <div class="trust-tips-faq__block trust-tips-faq__block--faq">
+      <div class="trust-tips-faq__header">
+        <h2 class="trust-tips-faq__title">Football FAQ</h2>
+      </div>
+      <div class="trust-tips-faq__faq-list">
+        <article class="trust-tips-faq__faq-item">
+          <span class="trust-tips-faq__faq-icon" aria-hidden="true">
+            <img src="assets/img/svg/question-mark.svg" alt="Question Mark" />
+          </span>
+          <div class="trust-tips-faq__faq-body">
+            <h3 class="trust-tips-faq__faq-question">What is Football Park?</h3>
+            <p class="trust-tips-faq__faq-answer">
+              Football Park is one of the fastest-growing football content and
+              betting sites in the UK. Our primary goal is to provide you with
+              the best possible football experience while helping you achieve
+              your betting goals responsibly.
+            </p>
+          </div>
+        </article>
+        <article class="trust-tips-faq__faq-item">
+          <span class="trust-tips-faq__faq-icon" aria-hidden="true">
+            <img src="assets/img/svg/information.svg" alt="Information" />
+          </span>
+          <div class="trust-tips-faq__faq-body">
+            <h3 class="trust-tips-faq__faq-question">
+              Who is behind Football Park's content and tips?
+            </h3>
+            <p class="trust-tips-faq__faq-answer">
+              Football Park is unique because it’s created by football people
+              with decades of combined experience in the industry, including
+              scouting, media, and data. Our site features dedicated,
+              football-obsessed writers and journalists, as well as a team of
+              in-house experts.
+            </p>
+          </div>
+        </article>
+        <article class="trust-tips-faq__faq-item">
+          <span class="trust-tips-faq__faq-icon" aria-hidden="true">
+            <img src="assets/img/svg/magic-hat.svg" alt="Magic Hat" />
+          </span>
+          <div class="trust-tips-faq__faq-body">
+            <h3 class="trust-tips-faq__faq-question">
+              How reliable are Football Park predictions and tips?
+            </h3>
+            <p class="trust-tips-faq__faq-answer">
+              With a consistently high success rate, we believe our predictions
+              and tips are of exceptional quality. Each one is carefully backed
+              by in-depth research, statistical analysis, and expert insight. We
+              are committed to maintaining our strong reputation through
+              relentless dedication, and always striving to be the leading
+              football prediction site.
+            </p>
+          </div>
+        </article>
+        <article class="trust-tips-faq__faq-item">
+          <span class="trust-tips-faq__faq-icon" aria-hidden="true">
+            <img src="assets/img/svg/support.svg" alt="Support" />
+          </span>
+          <div class="trust-tips-faq__faq-body">
+            <h3 class="trust-tips-faq__faq-question">
+              Do Football Park help users find the best betting offers and
+              sign-up bonuses?
+            </h3>
+            <p class="trust-tips-faq__faq-answer">
+              With a consistently high success rate, we believe our predictions
+              and tips are of exceptional quality. Each one is carefully backed
+              by in-depth research, statistical analysis, and expert insight. We
+              are committed to maintaining our strong reputation through
+              relentless dedication, and always striving to be the leading
+              football prediction site.
+            </p>
+          </div>
+        </article>
+        <article class="trust-tips-faq__faq-item">
+          <span class="trust-tips-faq__faq-icon" aria-hidden="true">
+            <img src="assets/img/svg/refresh-clock.svg" alt="Refresh Clock" />
+          </span>
+          <div class="trust-tips-faq__faq-body">
+            <h3 class="trust-tips-faq__faq-question">
+              How often are your football predictions updated?
+            </h3>
+            <p class="trust-tips-faq__faq-answer">
+              We offer daily football predictions, including predictions for
+              today, tomorrow, and even weekend football predictions. Our goal
+              is to provide a simple route into finding the best betting tips
+              today and value tips every week.
+            </p>
+          </div>
+        </article>
+        <article class="trust-tips-faq__faq-item">
+          <span class="trust-tips-faq__faq-icon" aria-hidden="true"
+            ><img src="assets/img/svg/free-badge.svg" alt="Free"
+          /></span>
+          <div class="trust-tips-faq__faq-body">
+            <h3 class="trust-tips-faq__faq-question">
+              Are Football Park football tips free?
+            </h3>
+            <p class="trust-tips-faq__faq-answer">
+              Yes, 100% of Football Park’s betting tips are completely free.
+            </p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="promo-banner-subscribe">
+  <div class="promo-banner-subscribe__bg" aria-hidden="true">
+    <img
+      src="assets/img/cta-bg.png"
+      alt=""
+      class="promo-banner-subscribe__bg-img"
+    />
+  </div>
+  <div class="promo-banner-subscribe__inner">
+    <!-- prettier-ignore -->
+    <div class="newsletter-inplay__subscribe promo-banner-subscribe__form-wrap">
+  <div class="newsletter-inplay__subscribe-bg" aria-hidden="true"></div>
+  <div class="newsletter-inplay__subscribe-inner">
+    <div class="subscribe-form">
+      <h2 class="subscribe-form__title">
+        WINNING PREDICTIONS ARE READY IN YOUR BOX!
+      </h2>
+      <p class="subscribe-form__text">
+        Get the best promo codes & Bonus Codes Delivered!
+      </p>
+      <form
+        class="subscribe-form__form"
+        action="#"
+        method="get"
+        aria-label="Subscribe by email"
+      >
+        <input
+          type="email"
+          class="subscribe-form__input"
+          name="email"
+          placeholder="Enter your email"
+          required
+          aria-label="Email address"
+        />
+        <button type="submit" class="subscribe-form__submit">
+          Subscribe Now
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+
+  </div>
+</section>
+
+    </main>
+
+    <footer class="site-footer">
+  <div class="site-footer__inner container">
+    <div class="site-footer__top">
+      <div class="site-footer__brand">
+        <a class="site-footer__logo" href="/" aria-label="Football Park — Home">
+          <img
+            class="site-footer__logo-icon"
+            src="assets/img/logo.svg"
+            alt=""
+            aria-hidden="true"
+          />
+          <span class="site-footer__logo-text">
+            <span class="site-footer__logo-word">FOOTBALL</span>
+            <span class="site-footer__logo-word site-footer__logo-word--green"
+              >PARK</span
+            >
+          </span>
+        </a>
+        <p class="site-footer__slogan">
+          Providing you with the best tips, news, opinions and fun within the
+          world of football!
+        </p>
+        <div class="site-footer__social" aria-label="Social media">
+          <a href="#" class="site-footer__social-link" aria-label="TikTok">
+            <img
+              src="assets/img/svg/tiktok.svg"
+              alt="TikTok"
+              aria-hidden="true"
+            />
+          </a>
+          <a href="#" class="site-footer__social-link" aria-label="YouTube">
+            <img
+              src="assets/img/svg/youtube.svg"
+              alt="YouTube"
+              aria-hidden="true"
+            />
+          </a>
+          <a href="#" class="site-footer__social-link" aria-label="Telegram">
+            <img
+              src="assets/img/svg/telegram.svg"
+              alt="Telegram"
+              aria-hidden="true"
+            />
+          </a>
+
+          <a href="#" class="site-footer__social-link" aria-label="Instagram">
+            <img
+              src="assets/img/svg/instagram.svg"
+              alt="Instagram"
+              aria-hidden="true"
+            />
+          </a>
+        </div>
+      </div>
+
+      <nav
+        class="site-footer__nav site-footer__nav--company"
+        aria-label="Company"
+      >
+        <h3 class="site-footer__nav-title">Company</h3>
+        <ul class="site-footer__nav-list">
+          <li><a href="about-us.html">About Us</a></li>
+          <li><a href="contact-us.html">Contact</a></li>
+          <li><a href="#">Writers</a></li>
+        </ul>
+      </nav>
+      <nav
+        class="site-footer__nav site-footer__nav--hot"
+        aria-label="Hot links"
+      >
+        <h3 class="site-footer__nav-title">Hot Links</h3>
+        <ul class="site-footer__nav-list">
+          <li><a href="inplay-betting-tips.html">Betting Tips</a></li>
+          <li><a href="predictions.html">Football Predictions</a></li>
+          <li><a href="#">Free Bets</a></li>
+          <li><a href="#">Our Blog</a></li>
+          <li><a href="news.html">News</a></li>
+          <li><a href="#">Betting Guides</a></li>
+        </ul>
+      </nav>
+      <nav
+        class="site-footer__nav site-footer__nav--resources"
+        aria-label="Resources"
+      >
+        <h3 class="site-footer__nav-title">Resources</h3>
+        <ul class="site-footer__nav-list">
+          <li><a href="#">Terms &amp; Conditions</a></li>
+          <li><a href="privacy-policy.html">Privacy Policy</a></li>
+          <li><a href="#">Cookies</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <hr class="site-footer__divider" />
+
+    <div class="site-footer__bottom">
+      <div class="site-footer__age-badge">
+        <img src="assets/img/svg/plus-18.svg" alt="18+" aria-hidden="true" />
+      </div>
+      <div class="site-footer__bottom-col site-footer__bottom-col--content">
+        <div
+          class="site-footer__bottom-logos"
+          aria-label="Responsible gambling organisations"
+        >
+          <a
+            href="https://www.begambleaware.org"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="site-footer__org-logo"
+            aria-label="BeGambleAware.org"
+          >
+            <img
+              src="assets/img/begambleawareorg-white.png"
+              alt="BeGambleAware.org"
+            />
+          </a>
+          <a
+            href="https://www.gamcare.org.uk"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="site-footer__org-logo"
+            aria-label="GamCare"
+          >
+            <img src="assets/img/gamecare.png" alt="GamCare" />
+          </a>
+          <a
+            href="https://www.gamstop.co.uk"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="site-footer__org-logo"
+            aria-label="GAM STOP"
+          >
+            <img src="assets/img/gamstop.png" alt="GAM STOP" />
+          </a>
+        </div>
+        <p class="site-footer__disclaimer">
+          Football Park supports Gamble Aware in its aims to promote
+          responsibility in gambling.
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
