@@ -63,6 +63,14 @@ function copyAssets() {
     .pipe(browserSync.stream());
 }
 
+// Copy normalize.css so @import in main.css resolves (404 fix)
+function copyNormalizeCss() {
+  return gulp
+    .src("node_modules/normalize.css/normalize.css")
+    .pipe(gulp.dest("dist/css/normalize.css"))
+    .pipe(browserSync.stream());
+}
+
 // Bundle component JS files into one file
 function bundleComponentJs() {
   return gulp
@@ -123,18 +131,19 @@ function serve() {
 
 // Build task
 const build = gulp.series(
-  gulp.parallel(compileScss, includeHtml, copyAssets, bundleComponentJs)
+  gulp.parallel(compileScss, includeHtml, copyAssets, copyNormalizeCss, bundleComponentJs)
 );
 
 // Default task
 const dev = gulp.series(
-  gulp.parallel(compileScss, includeHtml, copyAssets, bundleComponentJs),
+  gulp.parallel(compileScss, includeHtml, copyAssets, copyNormalizeCss, bundleComponentJs),
   serve
 );
 
 exports.compileScss = compileScss;
 exports.includeHtml = includeHtml;
 exports.copyAssets = copyAssets;
+exports.copyNormalizeCss = copyNormalizeCss;
 exports.bundleComponentJs = bundleComponentJs;
 exports.build = build;
 exports.default = dev;
